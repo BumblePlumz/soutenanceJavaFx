@@ -11,9 +11,9 @@ module fr.cda.scraping {
     requires org.hibernate.orm.core;
     requires jakarta.persistence;
     requires java.sql;
-    requires annotations;
     requires spring.security.crypto;
     requires org.apache.logging.log4j;
+    requires annotations;
 
     opens fr.cda.scraping to javafx.fxml;
     exports fr.cda.scraping;
@@ -21,4 +21,5 @@ module fr.cda.scraping {
     opens fr.cda.scraping.controller to javafx.fxml;
     exports fr.cda.scraping.model.entity;
     opens fr.cda.scraping.model.entity to javafx.fxml, org.hibernate.orm.core;
+
 }

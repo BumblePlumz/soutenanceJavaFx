@@ -1,2 +1,0 @@
-2023-11-10 14:14:17 ERROR SqlExceptionHelper:150 - Column 'role_id' cannot be null
-2023-11-10 16:18:41 ERROR SqlExceptionHelper:150 - Duplicate entry 'test@example.com' for key 'email'
