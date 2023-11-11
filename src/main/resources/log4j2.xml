@@ -4,17 +4,30 @@
         <Console name="Console" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </Console>
-        <File name="File" fileName="log/error.log">
+        <File name="ErrorFile" fileName="logs/error.log">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+        <File name="InfosFile" fileName="logs/infos.log">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+        <File name="FatalFile" fileName="logs/fatal.log">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </File>
     </Appenders>
     <Loggers>
         <Root level="debug">
-            <Filters>
-                <RegexFilter regex=".*Adding type registration.*" onMatch="DENY" onMismatch="ACCEPT"/>
-            </Filters>
             <AppenderRef ref="Console"/>
             <AppenderRef ref="ErrorFile" level="error"/>
+            <AppenderRef ref="InfosFile" level="info"/>
         </Root>
+        <Logger name="fr.cda.scraping.utils.LoggerTools" level="error">
+            <AppenderRef ref="ErrorFile"/>
+        </Logger>
+        <Logger name="fr.cda.scraping.utils.LoggerTools" level="info">
+            <AppenderRef ref="InfosFile"/>
+        </Logger>
+        <Logger name="fr.cda.scraping.utils.LoggerTools" level="fatal">
+            <AppenderRef ref="FatalFile"/>
+        </Logger>
     </Loggers>
 </Configuration>

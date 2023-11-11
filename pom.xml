@@ -11,6 +11,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <htmlunit.version>2.70.0</htmlunit.version>
         <!-- Cryptage -->
         <bcrypt.verison>6.1.5</bcrypt.verison>
         <!-- LOGS and TEST-->
@@ -33,6 +34,12 @@
     </properties>
 
     <dependencies>
+        <!-- Scraping -->
+        <dependency>
+            <groupId>net.sourceforge.htmlunit</groupId>
+            <artifactId>htmlunit</artifactId>
+            <version>${htmlunit.version}</version>
+        </dependency>
         <!-- Cryptage -->
         <dependency>
             <groupId>org.springframework.security</groupId>
