@@ -4,6 +4,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -28,9 +29,9 @@
                         <Image url="@../../images/banner.jpg" />
                      </image>
                   </ImageView>
-                  <Label layoutX="191.0" layoutY="65.0" styleClass="h1Hello" stylesheets="@../../css/style.css" text="Bienvenue">
+                  <Label layoutX="204.0" layoutY="81.0" stylesheets="@../../css/style.css" text="Bienvenue">
                      <font>
-                        <Font size="36.0" />
+                        <Font name="Palace Script MT" size="72.0" />
                      </font>
                   </Label>
                </children>
@@ -44,29 +45,46 @@
                         <Image url="@../../images/logoScraping.jpg" />
                      </image>
                   </ImageView>
-                  <TextField fx:id="id" layoutX="29.0" layoutY="267.0" />
-                  <Label layoutX="29.0" layoutY="306.0" text="Mot de passe" />
-                  <TextField fx:id="password" layoutX="29.0" layoutY="323.0" />
-                  <Button layoutX="29.0" layoutY="376.0" mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="150.0" stylesheets="@../../css/style.css" text="Connexion">
+                  <Label layoutX="44.0" layoutY="193.0" text="Connexion">
+                     <font>
+                        <Font name="Script MT Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="26.0" layoutY="250.0" text="Email">
+                     <font>
+                        <Font name="Script MT Bold" size="12.0" />
+                     </font></Label>
+                  <TextField fx:id="id" layoutX="26.0" layoutY="267.0" onInputMethodTextChanged="#clearIdLabel" onKeyPressed="#clearIdLabel" onKeyReleased="#clearIdLabel" onKeyTyped="#clearIdLabel" onMouseClicked="#clearIdLabel" />
+                  <Label fx:id="idError" layoutX="29.0" layoutY="271.0" />
+                  <Label layoutX="26.0" layoutY="306.0" text="Mot de passe">
+                     <font>
+                        <Font name="Script MT Bold" size="12.0" />
+                     </font></Label>
+                  <PasswordField fx:id="password" layoutX="27.0" layoutY="323.0" onInputMethodTextChanged="#clearPwdLabel" onKeyPressed="#clearPwdLabel" onKeyReleased="#clearPwdLabel" onKeyTyped="#clearPwdLabel" onMouseClicked="#clearPwdLabel" />
+                  <Label fx:id="passwordError" layoutX="30.0" layoutY="327.0" />
+                  <Button layoutX="26.0" layoutY="376.0" mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="150.0" stylesheets="@../../css/style.css" text="Connexion">
                      <styleClass>
                         <String fx:value="btnHello" />
                         <String fx:value="button-29" />
                      </styleClass>
                   </Button>
-                  <Label layoutX="44.0" layoutY="193.0" style="-fx-font-family: IM_FELL_English_PRO_Roman;" text="Connexion">
+                  <Hyperlink layoutX="44.0" layoutY="409.0" onAction="#openResetPasswordForm" onMouseClicked="#openResetPasswordForm" text="Mot de passe oublié ?">
                      <font>
-                        <Font size="24.0" />
-                     </font>
-                  </Label>
-                  <Label layoutX="29.0" layoutY="250.0" text="Identifiant" />
-                  <Pane layoutX="15.0" layoutY="505.0" prefHeight="178.0" prefWidth="170.0" style="-fx-border-color: black; -fx-border-radius: 15px; -fx-background-color: #8dddb9;">
+                        <Font name="Times New Roman" size="12.0" />
+                     </font></Hyperlink>
+                  <Pane layoutX="17.0" layoutY="487.0" onMouseClicked="#openRegisterForm" prefHeight="50.0" prefWidth="170.0" style="-fx-border-color: black; -fx-border-radius: 15px; -fx-background-color: c2cbed;">
                      <children>
-                        <Button layoutX="5.0" layoutY="77.0" mnemonicParsing="false" onAction="#register" text="Inscrivez-vous maintenant !" />
+                        <Button layoutX="5.0" layoutY="6.0" mnemonicParsing="false" onAction="#openRegisterForm" prefHeight="39.0" prefWidth="161.0" style="-fx-background-color: c2cbed;" styleClass="btnInscription" stylesheets="@../../css/style.css" text="Inscrivez-vous maintenant !">
+                           <font>
+                              <Font name="Script MT Bold" size="12.0" />
+                           </font></Button>
                      </children>
                   </Pane>
                   <Label layoutX="39.0" layoutY="741.0" text="©  Tous droits réservés" />
-                  <Label layoutX="61.0" layoutY="758.0" text="Nguyen Nicolas" />
-                  <Hyperlink layoutX="38.0" layoutY="409.0" onAction="#resetPwd" text="Mot de passe oublié ?" />
+                  <Label layoutX="61.0" layoutY="758.0" text="Nguyen Nicolas">
+                     <font>
+                        <Font name="Times New Roman" size="12.0" />
+                     </font></Label>
                </children>
             </AnchorPane>
          </center>

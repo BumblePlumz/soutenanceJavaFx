@@ -9,7 +9,7 @@ import jakarta.persistence.TypedQuery;
 
 import java.util.List;
 
-public class RoleRepository extends JPATools {
+public class RoleRepository extends JPATools implements RoleIntRepository {
     public RoleRepository(String unitName) {
         super(unitName);
     }

@@ -9,7 +9,7 @@ import jakarta.persistence.NoResultException;
 import jakarta.persistence.NonUniqueResultException;
 import jakarta.persistence.TypedQuery;
 
-public class UserRepository extends JPATools {
+public class UserRepository extends JPATools implements UserIntRepository{
     public UserRepository(String unitName) {
         super(unitName);
     }

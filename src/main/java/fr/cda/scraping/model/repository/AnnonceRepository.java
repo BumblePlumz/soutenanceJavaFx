@@ -10,7 +10,7 @@ import jakarta.persistence.TypedQuery;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AnnonceRepository extends JPATools {
+public class AnnonceRepository extends JPATools implements AnnonceIntRepository {
     public AnnonceRepository(String unitName) {
         super(unitName);
     }

@@ -41,43 +41,38 @@ class UserTest {
     @Test
     @DisplayName("Test CRUD de la classe User")
     void TEST_CRUD() {
-        try {
-            // Test de la création (CREATE)
-            User user = new User();
-            user.setName("Johnson");
-            user.setFirstname("Dwayne");
-            user.setEmail("the.rock@example.com");
-            user.setPassword(PasswordTools.getPasswordHashed("password123"));
-            user.setRole(em.find(Role.class, 1));
-            em.persist(user);
-            Long userId = user.getId();
+        // Test de la création (CREATE)
+        User user = new User();
+        user.setName("Johnson");
+        user.setFirstname("Dwayne");
+        user.setEmail("the.rock@example.com");
+        user.setPassword(PasswordTools.getPasswordHashed("password123"));
+        user.setRole(em.find(Role.class, 1));
+        em.persist(user);
+        Long userId = user.getId();
 
-            // Test de la lecture (READ)
-            User isUser = em.find(User.class, userId);
-            assertNotNull(isUser);
-            assertEquals("Dwayne", isUser.getFirstname());
-            assertEquals("Johnson", isUser.getName());
-            assertTrue(PasswordTools.checkPassword("password123",isUser.getPassword()));
-            assertNotSame("password123", isUser.getPassword());
-            assertNotSame("test@example.com", isUser.getEmail());
+        // Test de la lecture (READ)
+        User isUser = em.find(User.class, userId);
+        assertNotNull(isUser);
+        assertEquals("Dwayne", isUser.getFirstname());
+        assertEquals("Johnson", isUser.getName());
+        assertTrue(PasswordTools.checkPassword("password123",isUser.getPassword()));
+        assertNotSame("password123", isUser.getPassword());
+        assertNotSame("test@example.com", isUser.getEmail());
 
-            // Test de la mise à jour (UPDATE)
-            isUser.setFirstname("Maria");
+        // Test de la mise à jour (UPDATE)
+        isUser.setFirstname("Maria");
 
-            // Merge optionnel si on a déjà fait un find avant (l'objet est observé)
-            // em.merge(isUser);
+        // Merge optionnel si on a déjà fait un find avant (l'objet est observé)
+        // em.merge(isUser);
 
-            User updatedUser = em.find(User.class, userId);
-            assertEquals("Maria", updatedUser.getFirstname());
+        User updatedUser = em.find(User.class, userId);
+        assertEquals("Maria", updatedUser.getFirstname());
 
-            // Test de la suppression (DELETE)
-            em.remove(updatedUser);
-            User deletedUser = em.find(User.class, userId);
-            assertNull(deletedUser);
-            isOk = true;
-        }catch (Exception e){
-            isOk = false;
-            System.out.println("Une erreur est survenue");
-        }
+        // Test de la suppression (DELETE)
+        em.remove(updatedUser);
+        User deletedUser = em.find(User.class, userId);
+        assertNull(deletedUser);
+        isOk = true;
     }
 }

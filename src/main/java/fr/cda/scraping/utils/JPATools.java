@@ -5,7 +5,9 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;
+import org.hibernate.service.spi.ServiceException;
 
+import java.net.ConnectException;
 import java.util.logging.Logger;
 
 public class JPATools {
@@ -20,7 +22,9 @@ public class JPATools {
             this.entityManagerFactory = Persistence.createEntityManagerFactory(unitName);
             this.entityManager = entityManagerFactory.createEntityManager();
         }catch (JPAException e){
-            LoggerTools.logFatal("La connexion à la base de donnée à échouée", e.getCause());
+            LoggerTools.logFatal("JPAException e : La connexion à la base de donnée à échouée", e.getCause());
+        }catch (ServiceException e){
+            LoggerTools.logFatal("ServiceException : La connexion à la base de donnée à échouée", e.getCause());
         }
     }
 

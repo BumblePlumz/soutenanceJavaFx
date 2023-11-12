@@ -3,15 +3,6 @@
     src: url('fonts/Hello.ttf');
 }
 
-.h1Hello {
-    -fx-font-family: 'hello';
-    -fx-font-size: 48px;
-}
-.btnHello{
-    -fx-font-family: 'hello';
-    -fx-font-size: 16px;
-}
-
 .button-29 {
     -fx-align-items: center;
     -fx-appearance: none;
@@ -46,4 +37,8 @@
 .button-29:pressed {
     -fx-box-shadow: #3c4fe0 0 3px 7px inset;
     -fx-translate-y: 2;
+}
+
+.btnInscription{
+
 }

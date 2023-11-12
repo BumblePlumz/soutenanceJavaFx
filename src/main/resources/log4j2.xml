@@ -16,9 +16,9 @@
     </Appenders>
     <Loggers>
         <Root level="debug">
-            <AppenderRef ref="Console"/>
+<!--            <AppenderRef ref="Console"/>-->
             <AppenderRef ref="ErrorFile" level="error"/>
-            <AppenderRef ref="InfosFile" level="info"/>
+<!--            <AppenderRef ref="InfosFile" level="info"/>-->
         </Root>
         <Logger name="fr.cda.scraping.utils.LoggerTools" level="error">
             <AppenderRef ref="ErrorFile"/>
