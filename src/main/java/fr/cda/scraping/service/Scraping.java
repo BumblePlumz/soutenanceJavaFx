@@ -1,5 +1,5 @@
 package fr.cda.scraping.service;
 
-public class ScrapingLeBonCoin {
-
+public class Scraping {
+    
 }

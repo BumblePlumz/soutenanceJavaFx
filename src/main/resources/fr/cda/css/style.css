@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'hello';
+    src: url('fonts/Hello.ttf');
+}
+
+.button-29 {
+    -fx-align-items: center;
+    -fx-appearance: none;
+    -fx-border-width: 0;
+    -fx-border-radius: 6px;
+    -fx-box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    -fx-color: #fff;
+    -fx-cursor: hand;
+    -fx-display: inline-flex;
+    -fx-height: 48px;
+    -fx-justify-content: center;
+    -fx-line-height: 1;
+    -fx-list-style: none;
+    -fx-overflow: hidden;
+    -fx-padding: 0 16;
+    -fx-position: relative;
+    -fx-text-align: left;
+    -fx-text-decoration: none;
+    -fx-transition: -fx-box-shadow .15s, -fx-transform .15s;
+    -fx-user-select: none;
+}
+
+.button-29:focused {
+    -fx-box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+    -fx-box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    -fx-translate-y: -2;
+}
+
+.button-29:pressed {
+    -fx-box-shadow: #3c4fe0 0 3px 7px inset;
+    -fx-translate-y: 2;
+}
+
+.btnInscription{
+
+}

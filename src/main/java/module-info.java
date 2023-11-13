@@ -14,6 +14,10 @@ module fr.cda.scraping {
     requires spring.security.crypto;
     requires org.apache.logging.log4j;
     requires annotations;
+    requires osmosis.core;
+    requires osmosis.pbf;
+    requires osmosis.osm.binary;
+    requires osmosis.xml;
 
     opens fr.cda.scraping to javafx.fxml;
     exports fr.cda.scraping;

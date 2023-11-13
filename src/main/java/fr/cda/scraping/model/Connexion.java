@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-
+// TODO : pas si utilse que ça
 public class Connexion {
     // Informations de connexion à la base de données
     private static final String URL = "jdbc:mysql://localhost:3306/scraping";
