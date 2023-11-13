@@ -2,17 +2,12 @@ package fr.cda.scraping.controller;
 
 import fr.cda.scraping.model.entity.User;
 import fr.cda.scraping.model.repository.UserRepository;
-import fr.cda.scraping.utils.JPATools;
 import fr.cda.scraping.utils.LoggerTools;
 import fr.cda.scraping.utils.PasswordTools;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.Scene;
-import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-import org.hibernate.boot.model.relational.Database;
 
 public class AuthController {
     private SceneController sc = SceneController.getInstance();
@@ -38,13 +33,13 @@ public class AuthController {
                 SceneController.getInstance().setUser(user);
                 sc.openHome();
             }else{
-                SceneController.showAlert("Identification non valide", "Un des champs renseignés n'est pas valide");
+                SceneController.showErrorAlert("Identification non valide", "Un des champs renseignés n'est pas valide");
             }
         }
     }
 
     /**
-     *
+     * Ouverture du formulaire d'inscription
      */
     public void openRegisterForm(){
         System.out.println("Début de l'enregistrement");
@@ -89,7 +84,7 @@ public class AuthController {
             isAlert = true;
         }
         if (isAlert) {
-            SceneController.showAlert("Connexion non valide", "Un des champs renseignés n'est pas valide");
+            SceneController.showErrorAlert("Connexion non valide", "Un des champs renseignés n'est pas valide");
         }
         return isAlert;
     }
@@ -103,11 +98,11 @@ public class AuthController {
     private User getUserByEmail(String email) {
         User user = null;
         try {
-            UserRepository ur = new UserRepository("scraping");
+            UserRepository ur = new UserRepository();
             user = ur.findByEmail(email);
         } catch (IllegalArgumentException | NullPointerException e) {
             LoggerTools.logError("Class AuthController: Une erreur s'est produite dans la récupération de l'utilisateur", e);
-            SceneController.showAlert("Vérifier la connexion", "La connexion à la base de données a échoué");
+            SceneController.showErrorAlert("Vérifier la connexion", "La connexion à la base de données a échoué");
         }
         return user;
     }

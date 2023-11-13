@@ -11,15 +11,15 @@ import java.net.ConnectException;
 import java.util.logging.Logger;
 
 public class JPATools {
-
+    protected String unit = "scraping";
     protected EntityManagerFactory entityManagerFactory;
     protected EntityManager entityManager;
     protected EntityTransaction entityTransaction;
     protected Boolean isOk = false;
 
-    public JPATools(String unitName) {
+    public JPATools() {;
         try {
-            this.entityManagerFactory = Persistence.createEntityManagerFactory(unitName);
+            this.entityManagerFactory = Persistence.createEntityManagerFactory(unit);
             this.entityManager = entityManagerFactory.createEntityManager();
         }catch (JPAException e){
             LoggerTools.logFatal("JPAException e : La connexion à la base de donnée à échouée", e.getCause());

@@ -15,7 +15,7 @@ public class ScrapingExe extends Application {
         Font helloFont = Font.loadFont(getClass().getResourceAsStream("fr/cda/css/fonts/Hello.ttf"), 12);
 
         // Charger le fichier FXML
-        Parent root = FXMLLoader.load(getClass().getResource("/fr/cda/scraping/view/home.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/fr/cda/scraping/view/auth.fxml"));
 
         // Créer la scène
         Scene scene = new Scene(root, 800, 800);

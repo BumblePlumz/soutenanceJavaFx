@@ -11,11 +11,8 @@ import jakarta.persistence.Persistence;
 
 public class CreateUser {
     public static void main(String[] args) {
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("scraping");
-        EntityManager em = emf.createEntityManager();
-
-        RoleRepository rr = new RoleRepository("scraping");
-        UserRepository ur = new UserRepository("scraping");
+        RoleRepository rr = new RoleRepository();
+        UserRepository ur = new UserRepository();
 
         // Test de la création (CREATE)
         User user = new User();
@@ -23,9 +20,11 @@ public class CreateUser {
         user.setFirstname("Nguyen");
         user.setEmail("n.n@example.com");
         user.setPassword(PasswordTools.getPasswordHashed("test"));
-        user.setRole(em.find(Role.class, 1));
+        user.setRole(rr.findById((long)1));
 
         ur.save(user);
 
+
     }
+
 }

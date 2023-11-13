@@ -118,7 +118,7 @@ public class SceneController {
             registerStage.setTitle("Formulaire d'inscription");
             registerStage.initModality(Modality.APPLICATION_MODAL);
             registerStage.setResizable(false);
-            Scene scene = new Scene(registerRoot, 300, 400);
+            Scene scene = new Scene(registerRoot);
             registerStage.setScene(scene);
             registerStage.showAndWait();
         } catch (NullPointerException | IOException e) {
@@ -149,8 +149,15 @@ public class SceneController {
      * @param title [String] titre de l'alert
      * @param content [String] contenu de l'alert
      */
-    public static void showAlert(String title, String content) {
+    public static void showErrorAlert(String title, String content) {
         Alert a = new Alert(Alert.AlertType.ERROR);
+        a.setTitle(title);
+        a.setHeaderText(null);
+        a.setContentText(content);
+        a.showAndWait();
+    }
+    public static void showValidAlert(String title, String content){
+        Alert a = new Alert(Alert.AlertType.CONFIRMATION);
         a.setTitle(title);
         a.setHeaderText(null);
         a.setContentText(content);

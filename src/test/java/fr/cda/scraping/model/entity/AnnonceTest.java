@@ -1,7 +1,6 @@
 package fr.cda.scraping.model.entity;
 
-import fr.cda.scraping.utils.PasswordTools;
-import fr.cda.scraping.utils.SEARCH;
+import fr.cda.scraping.model.repository.TypeRepository;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.EntityTransaction;
@@ -45,9 +44,12 @@ public class AnnonceTest {
     void TEST_CRUD() {
         try {
             // Test de la création (CREATE)
+            TypeRepository tr = new TypeRepository();
+            Type type = tr.findById((long)2);
+
             Annonce a = new Annonce();
             a.setHref("www.google.fr");
-            a.setType(SEARCH.HOUSE);
+            a.setType(type);
             a.setCity("Lorient");
             a.setDepartment("morbihan");
             a.setPostcode("56100");
@@ -58,7 +60,7 @@ public class AnnonceTest {
             // Test de la lecture (READ)
             Annonce isAn = em.find(Annonce.class, AnnonceId);
             assertNotNull(isAn);
-            assertEquals(SEARCH.HOUSE, isAn.getType());
+            assertEquals(1, isAn.getType());
             assertEquals("Lorient", isAn.getCity());
             assertNotSame("www.test.fr", isAn.getHref());
             assertNotSame("56000", isAn.getPostcode());

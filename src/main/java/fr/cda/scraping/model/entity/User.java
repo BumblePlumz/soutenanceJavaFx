@@ -1,5 +1,7 @@
 package fr.cda.scraping.model.entity;
 
+import fr.cda.scraping.model.repository.RoleRepository;
+import fr.cda.scraping.utils.JPATools;
 import jakarta.persistence.*;
 import org.jetbrains.annotations.NotNull;
 
@@ -21,8 +23,21 @@ public class User {
     @ManyToOne
     @JoinColumn(name = "role_id")
     private Role role;
+    @PrePersist
+    private void prePersist() {
+        if (role == null) {
+            role = getDefaultRole();
+        }
+    }
 
     public User() {
+    }
+
+    public User(String name, String firstname, String email, String password) {
+        this.name = name;
+        this.firstname = firstname;
+        this.email = email;
+        this.password = password;
     }
 
     public long getId() {
@@ -71,5 +86,13 @@ public class User {
 
     public void setRole(Role role) {
         this.role = role;
+    }
+
+    private Role getDefaultRole(){
+        RoleRepository rr = new RoleRepository();
+        rr.start();
+        Role r = rr.findById((long)2);
+        rr.close();
+        return r;
     }
 }

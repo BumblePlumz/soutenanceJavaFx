@@ -18,6 +18,10 @@ module fr.cda.scraping {
     requires osmosis.pbf;
     requires osmosis.osm.binary;
     requires osmosis.xml;
+    requires htmlunit;
+    requires com.google.gson;
+    requires org.apache.httpcomponents.httpcore;
+    requires org.apache.httpcomponents.httpclient;
 
     opens fr.cda.scraping to javafx.fxml;
     exports fr.cda.scraping;

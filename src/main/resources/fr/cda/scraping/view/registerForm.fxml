@@ -21,20 +21,20 @@
                         <Image url="@../../images/logoScraping.jpg" />
                      </image>
                   </ImageView>
-                  <Label layoutX="166.0" layoutY="185.0" text="Nom" />
-                  <TextField layoutX="165.0" layoutY="202.0" prefHeight="25.0" prefWidth="100.0" />
                   <Label layoutX="31.0" layoutY="185.0" text="Prénom" />
-                  <TextField layoutX="30.0" layoutY="202.0" prefHeight="25.0" prefWidth="100.0" />
+                  <TextField fx:id="registerFirstname" layoutX="30.0" layoutY="202.0" prefHeight="25.0" prefWidth="100.0" />
+                  <Label layoutX="166.0" layoutY="185.0" text="Nom" />
+                  <TextField fx:id="registerName" layoutX="165.0" layoutY="202.0" prefHeight="25.0" prefWidth="100.0" />
                   <Label layoutX="74.0" layoutY="241.0" text="Email" />
-                  <TextField layoutX="73.0" layoutY="258.0" />
+                  <TextField fx:id="registerEmail" layoutX="73.0" layoutY="258.0" />
                   <Label layoutX="74.0" layoutY="296.0" text="Password" />
-                  <PasswordField layoutX="73.0" layoutY="313.0" />
+                  <PasswordField fx:id="registerPassword" layoutX="73.0" layoutY="313.0" />
                   <Label layoutX="32.0" layoutY="146.0" text="Formulaire d'inscription">
                      <font>
                         <Font name="Script MT Bold" size="24.0" />
                      </font>
                   </Label>
-                  <Button layoutX="116.0" layoutY="362.0" mnemonicParsing="false" styleClass="button-29" stylesheets="@../../css/style.css" text="Valider" />
+                  <Button layoutX="116.0" layoutY="362.0" mnemonicParsing="false" onAction="#register" styleClass="button-29" stylesheets="@../../css/style.css" text="Valider" />
                </children>
             </AnchorPane>
          </children>

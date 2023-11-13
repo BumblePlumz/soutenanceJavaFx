@@ -1,5 +1,4 @@
 package fr.cda.scraping.model.entity;
-import fr.cda.scraping.utils.SEARCH;
 
 import jakarta.persistence.*;
 
@@ -14,9 +13,9 @@ public class Annonce {
     private long id;
     @Column(name = "href")
     private String href;
-    @Column(name = "type")
-    @Enumerated(EnumType.ORDINAL)
-    private SEARCH type;
+    @ManyToOne
+    @JoinColumn(name = "type_id")
+    private Type type;
     @Column(name = "description", columnDefinition = "TEXT")
     private String description;
     @Column(name = "city")
@@ -53,10 +52,10 @@ public class Annonce {
     public void setHref(String href) {
         this.href = href;
     }
-    public SEARCH getType() {
+    public Type getType() {
         return type;
     }
-    public void setType(SEARCH type) {
+    public void setType(Type type) {
         this.type = type;
     }
     public String getCity() {
@@ -110,12 +109,18 @@ public class Annonce {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Annonce{");
+        final StringBuffer sb = new StringBuffer("Annonce{");
         sb.append("id=").append(id);
-        sb.append(", type='").append(type).append('\'');
-        sb.append(", location='").append(city).append('\'');
-        sb.append(", price='").append(price).append('\'');
-        sb.append(", size='").append(size).append('\'');
+        sb.append(", href='").append(href).append('\'');
+        sb.append(", type_id=").append(type);
+        sb.append(", description='").append(description).append('\'');
+        sb.append(", city='").append(city).append('\'');
+        sb.append(", department='").append(department).append('\'');
+        sb.append(", postcode='").append(postcode).append('\'');
+        sb.append(", price=").append(price);
+        sb.append(", size=").append(size);
+        sb.append(", imgUrl='").append(imgUrl).append('\'');
+        sb.append(", dateCreation=").append(dateCreation);
         sb.append('}');
         return sb.toString();
     }

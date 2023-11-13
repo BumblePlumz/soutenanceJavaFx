@@ -11,8 +11,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AnnonceRepository extends JPATools implements AnnonceIntRepository {
-    public AnnonceRepository(String unitName) {
-        super(unitName);
+    public AnnonceRepository() {
+        super();
     }
 
     public Annonce findById(Long id) {
