@@ -12,8 +12,6 @@ public class Type {
     private long id;
     @Column(name = "label")
     private String label;
-    @OneToMany(mappedBy = "type")
-    private List<Annonce> annonces;
 
     public Type() {}
 
@@ -30,10 +28,13 @@ public class Type {
     public void setLabel(String label) {
         this.label = label;
     }
-    public List<Annonce> getAnnonces() {
-        return annonces;
-    }
-    public void setAnnonces(List<Annonce> annonces) {
-        this.annonces = annonces;
+
+    @Override
+    public String toString() {
+        return "Type{" +
+                "id=" + id +
+                ", label='" + label + '\'' +
+//                ", annonces=" + annonces +
+                '}';
     }
 }

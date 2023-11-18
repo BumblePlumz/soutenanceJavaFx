@@ -1,18 +1,40 @@
 package fr.cda.scraping.controller;
 
+import fr.cda.scraping.model.entity.Type;
+import fr.cda.scraping.model.repository.TypeRepository;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TextField;
 
-public class HomeController  {
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class HomeController implements Initializable {
     @FXML
-    ChoiceBox<String> searchChoiceBox;
+    ChoiceBox<String> searchType;
     @FXML
     TextField searchAddress, searchMinPrice, searchMaxPrice, searchMinSize, searchMaxSize;
+    @FXML
+    Button searchBtnValidate;
+
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        // Choices Initialization
+        System.out.println("Initialisation du HomeController");
+        for (Type t : new TypeRepository().findAll()) {
+            searchType.getItems().add(t.getLabel());
+        }
+
+
+        //
+
+    }
 
     public void initiateSearch(){
         // Get inputs
-        String type = searchChoiceBox.getSelectionModel().getSelectedItem();
+        String type = searchType.getSelectionModel().getSelectedItem();
         String address = searchAddress.getText().trim();
         String minPrice = searchMinPrice.getText().trim();
         String maxPrice = searchMaxPrice.getText().trim();
@@ -20,17 +42,11 @@ public class HomeController  {
         String maxSize = searchMaxSize.getText().trim();
 
         // Vérification empty()
-        isInputsValid(type, address, minPrice, maxPrice, minSize, maxSize);
-
-
+        isInputsValid(address, minPrice, maxPrice, minSize, maxSize);
 
     }
-    private Boolean isInputsValid(String type, String address, String minPrice, String maxPrice, String minSize, String maxSize) {
+    private Boolean isInputsValid(String address, String minPrice, String maxPrice, String minSize, String maxSize) {
         boolean isAlert = false;
-        if (type == null || type.isEmpty()){
-            // TODO gestion erreur
-            isAlert = true;
-        }
         if (address == null || address.isEmpty()){
             setupErrorMsg(searchAddress);
             isAlert = true;
@@ -53,7 +69,15 @@ public class HomeController  {
         }
         return isAlert;
     }
-
+    public void isSearchValid(){
+//        System.out.println("Exécution du listener");
+//        System.out.println(searchType.getValue());
+//        System.out.println(searchAddress.getText());
+        if (searchType.getValue() != null && searchAddress != null){
+            System.out.println("Valeur ok !");
+            searchBtnValidate.setDisable(searchType.getValue().isEmpty() && searchAddress.getText().isEmpty());
+        }
+    }
     private void setupErrorMsg(TextField tf) {
         tf.setStyle("-fx-text-fill: red;");
         tf.setOpacity(0.5);

@@ -3,13 +3,18 @@ package fr.cda.scraping;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+import fr.cda.scraping.model.entity.Type;
+import fr.cda.scraping.model.repository.TypeRepository;
 import fr.cda.scraping.service.Scraping;
-import org.w3c.dom.ls.LSOutput;
+import fr.cda.scraping.service.SeLoger;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 public class MainTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
 //         Il faut pour seLoger :
 //        Params.ci = code
@@ -17,40 +22,27 @@ public class MainTest {
 //        Meta.HierarchicalZones.0.Name = department
 //        Meta.Zips = cp
 
-
-
-
-
-        Scraping s = new Scraping();
-        JsonObject jsonObject = null;
-        JsonArray jsonArray = null;
-        JsonElement jsonElement = null;
-        try{
-            jsonElement = s.seLogerAddressApi("Vannes");
-        }catch (IOException e){
-            System.out.println("erreur");
+        TypeRepository tr = new TypeRepository();
+        List<Type> list = tr.findAll();
+        for (Type t : list) {
+            System.out.println(t.toString());
         }
 
-        System.out.println(jsonElement.get);
-//        // Iterate over each element in the array
-//        for (JsonElement jsonEl : jsonArray) {
-//            // Check if the element is a JsonObject
-//            if (jsonEl.isJsonObject()) {
-//                // Convert the element to a JsonObject
-//                JsonObject jsonObj = jsonEl.getAsJsonObject();
-//                System.out.println("Json Element : "+jsonEl);
-//                // Check if the JsonObject has the "Display" field
-//                if (jsonObj.has("Display")) {
-//                    // Get the value of the "Display" field
-//                    String displayValue = jsonObj.get("Display").getAsString();
+
+
+
+//        SeLoger s = new SeLoger();
 //
-//                    // Extract the city name from the "Display" value
-//                    String cityName =displayValue;
-//
-//                    // Print the city name
-//                    System.out.println("City: " + cityName);
-//                }
-//            }
-//        }
+//        // TEST seLogerAddressApi
+//        Map<String, String> ville = s.seLogerAddressApi("Vannes");
+//        System.out.println(ville.get("code"));
+//        System.out.println(ville.get("city"));
+//        System.out.println(ville.get("postcode"));
+//        System.out.println(ville.get("department"));
+//        System.out.println(ville.toString());
+
+        // TEST scrapingSeLoger
+//        s.scrapSeLoger();
+
     }
 }

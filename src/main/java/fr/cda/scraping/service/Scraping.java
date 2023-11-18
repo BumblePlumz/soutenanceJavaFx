@@ -15,34 +15,16 @@ import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Scraping {
+
     public void scrapImmoNotaire(){
 
     }
-    public void scrapSeLoger(Type type, String city, String minPrice, String maxPrice, String minSize, String maxSize){
-        StringBuilder sb = new StringBuilder();
-        sb.append("https://www.seloger.com/list.htm?tri=initial&enterprise=0&idtypebien=");
-        sb.append(type);
-        sb.append("&places=[{%22inseeCodes%22:[");
-        sb.append(city);
-        sb.append("]}]&price=");
-        sb.append(minPrice);
-        sb.append("/");
-        sb.append(maxPrice);
-        sb.append("&surface=");
-        sb.append(minSize);
-        sb.append("/");
-        sb.append(maxSize);
-        sb.append("&mandatorycommodities=0&enterprise=0&qsVersion=1.0&m=search_refine-redirection-search_results");
 
-        WebClient webClient = new WebClient();
-        webClient.getOptions().setUseInsecureSSL(true);
-        webClient.getOptions().setCssEnabled(false);
-        webClient.getOptions().setJavaScriptEnabled(false);
-//        HtmlPage htmlPage = webClient.getPage(url);
-    }
     public void scrapOuestFrance(){
 
     }
@@ -97,27 +79,5 @@ public class Scraping {
         return element != null ? element.getTextContent() : "";
     }
 
-    public List<> seLogerAddressApi(String city) throws IOException {
-        String apiUrl = "https://autocomplete.svc.groupe-seloger.com/api/v2.0/auto/complete/fra/63/10/8/SeLoger?text=";
-        String url = apiUrl + city;
 
-        HttpClient httpClient = HttpClients.createDefault();
-        HttpGet httpGet = new HttpGet(url);
-
-        try {
-            HttpResponse response = httpClient.execute(httpGet);
-
-            // Vérifier si la réponse est réussie (code 200)
-            if (response.getStatusLine().getStatusCode() == 200) {
-                String jsonResponse = EntityUtils.toString(response.getEntity());
-                JsonArray jsonArray = JsonParser.parseString(jsonResponse).getAsJsonArray();
-                return ;
-            } else {
-                throw new IOException("Échec de la requête avec le code : " + response.getStatusLine().getStatusCode());
-            }
-        } finally {
-            // Assurez-vous de libérer les ressources associées à la requête HTTP
-            httpGet.releaseConnection();
-        }
-    }
 }

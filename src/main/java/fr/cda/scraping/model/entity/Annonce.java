@@ -18,12 +18,9 @@ public class Annonce {
     private Type type;
     @Column(name = "description", columnDefinition = "TEXT")
     private String description;
-    @Column(name = "city")
-    private String city;
-    @Column(name = "department")
-    private String department;
-    @Column(name = "postcode")
-    private String postcode;
+    @ManyToOne
+    @JoinColumn(name = "address_id")
+    private Address address;
     @Column(name = "price")
     private long price;
     @Column(name = "size")
@@ -58,24 +55,6 @@ public class Annonce {
     public void setType(Type type) {
         this.type = type;
     }
-    public String getCity() {
-        return city;
-    }
-    public void setCity(String city) {
-        this.city = city;
-    }
-    public String getDepartment() {
-        return department;
-    }
-    public void setDepartment(String department) {
-        this.department = department;
-    }
-    public String getPostcode() {
-        return postcode;
-    }
-    public void setPostcode(String postcode) {
-        this.postcode = postcode;
-    }
     public long getPrice() {
         return price;
     }
@@ -109,19 +88,16 @@ public class Annonce {
 
     @Override
     public String toString() {
-        final StringBuffer sb = new StringBuffer("Annonce{");
-        sb.append("id=").append(id);
-        sb.append(", href='").append(href).append('\'');
-        sb.append(", type_id=").append(type);
-        sb.append(", description='").append(description).append('\'');
-        sb.append(", city='").append(city).append('\'');
-        sb.append(", department='").append(department).append('\'');
-        sb.append(", postcode='").append(postcode).append('\'');
-        sb.append(", price=").append(price);
-        sb.append(", size=").append(size);
-        sb.append(", imgUrl='").append(imgUrl).append('\'');
-        sb.append(", dateCreation=").append(dateCreation);
-        sb.append('}');
-        return sb.toString();
+        return "Annonce{" +
+                "id=" + id +
+                ", href='" + href + '\'' +
+                ", type=" + type +
+                ", description='" + description + '\'' +
+                ", address=" + address +
+                ", price=" + price +
+                ", size=" + size +
+                ", imgUrl='" + imgUrl + '\'' +
+                ", dateCreation=" + dateCreation +
+                '}';
     }
 }
