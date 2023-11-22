@@ -40,7 +40,7 @@ public class TypeRepository extends JPATools implements TypeIntRepository {
     public void save(Type Type) {
         start();
         try{
-            entityManager.persist(Type);
+            entityManager.merge(Type);
             isOk=true;
         }catch (JPAException e){
             LoggerTools.logError("Classe Type : erreur dans save()", e.getCause());

@@ -13,20 +13,22 @@ public class Annonce {
     private long id;
     @Column(name = "href")
     private String href;
-    @ManyToOne
-    @JoinColumn(name = "type_id")
-    private Type type;
+    @Column(name = "title")
+    private String title;
     @Column(name = "description", columnDefinition = "TEXT")
     private String description;
-    @ManyToOne
-    @JoinColumn(name = "address_id")
-    private Address address;
     @Column(name = "price")
     private long price;
     @Column(name = "size")
     private long size;
     @Column(name = "imgUrl")
     private String imgUrl;
+    @ManyToOne
+    @JoinColumn(name = "address_id")
+    private Address address;
+    @ManyToOne
+    @JoinColumn(name = "type_id")
+    private Type type;
     @Column(name = "dateCreation", columnDefinition = "DATETIME")
     private LocalDateTime dateCreation;
     @PrePersist
@@ -84,6 +86,18 @@ public class Annonce {
     }
     public void setDescription(String description) {
         this.description = description;
+    }
+    public String getTitle() {
+        return title;
+    }
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public Address getAddress() {
+        return address;
+    }
+    public void setAddress(Address address) {
+        this.address = address;
     }
 
     @Override

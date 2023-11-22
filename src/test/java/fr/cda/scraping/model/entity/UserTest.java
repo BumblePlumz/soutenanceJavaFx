@@ -43,7 +43,7 @@ class UserTest {
     void TEST_CRUD() {
         // Test de la création (CREATE)
         User user = new User();
-        user.setName("Johnson");
+        user.setLastname("Johnson");
         user.setFirstname("Dwayne");
         user.setEmail("the.rock@example.com");
         user.setPassword(PasswordTools.getPasswordHashed("password123"));
@@ -55,7 +55,7 @@ class UserTest {
         User isUser = em.find(User.class, userId);
         assertNotNull(isUser);
         assertEquals("Dwayne", isUser.getFirstname());
-        assertEquals("Johnson", isUser.getName());
+        assertEquals("Johnson", isUser.getLastname());
         assertTrue(PasswordTools.checkPassword("password123",isUser.getPassword()));
         assertNotSame("password123", isUser.getPassword());
         assertNotSame("test@example.com", isUser.getEmail());

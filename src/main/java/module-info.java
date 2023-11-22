@@ -22,6 +22,7 @@ module fr.cda.scraping {
     requires com.google.gson;
     requires org.apache.httpcomponents.httpcore;
     requires org.apache.httpcomponents.httpclient;
+    requires mysql.connector.j;
 
     opens fr.cda.scraping to javafx.fxml;
     exports fr.cda.scraping;

@@ -1,9 +1,7 @@
 package fr.cda.scraping.model.entity;
 
 import fr.cda.scraping.model.repository.RoleRepository;
-import fr.cda.scraping.utils.JPATools;
 import jakarta.persistence.*;
-import org.jetbrains.annotations.NotNull;
 
 @Entity
 @Table(name = "user")
@@ -12,8 +10,8 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private long id;
-    @Column(name = "name")
-    private String name;
+    @Column(name = "lastname")
+    private String lastname;
     @Column(name = "firstname")
     private String firstname;
     @Column(name = "email", unique = true)
@@ -33,8 +31,8 @@ public class User {
     public User() {
     }
 
-    public User(String name, String firstname, String email, String password) {
-        this.name = name;
+    public User(String lastname, String firstname, String email, String password) {
+        this.lastname = lastname;
         this.firstname = firstname;
         this.email = email;
         this.password = password;
@@ -48,12 +46,12 @@ public class User {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getLastname() {
+        return lastname;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setLastname(String name) {
+        this.lastname = name;
     }
 
     public String getFirstname() {

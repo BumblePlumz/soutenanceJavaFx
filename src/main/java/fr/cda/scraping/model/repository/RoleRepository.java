@@ -30,7 +30,7 @@ public class RoleRepository extends JPATools implements RoleIntRepository {
     public void save(Role role) {
         start();
         try{
-            entityManager.persist(role);
+            entityManager.merge(role);
             isOk=true;
         }catch (JPAException e){
             LoggerTools.logError("Classe Role : erreur dans save()", e.getCause());

@@ -1,0 +1,346 @@
+2023-11-19 15:23:02 ERROR DefaultJavaScriptErrorListener:43 - Error during JavaScript execution
+======= EXCEPTION START ========
+Exception class=[net.sourceforge.htmlunit.corejs.javascript.EvaluatorException]
+com.gargoylesoftware.htmlunit.ScriptException: syntax error (https://static-seloger.com/commons/ajax/functions/RedirectExternalLink.js#52)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:1001)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
+	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.compile(JavaScriptEngine.java:830)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.compile(JavaScriptEngine.java:796)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.compile(JavaScriptEngine.java:118)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.HtmlPage.loadJavaScriptFromUrl(HtmlPage.java:1153)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.HtmlPage.loadExternalJavaScriptFile(HtmlPage.java:1024)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.ScriptElementSupport.executeScriptIfNeeded(ScriptElementSupport.java:196)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.ScriptElementSupport$1.execute(ScriptElementSupport.java:120)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.ScriptElementSupport.onAllChildrenAddedToPage(ScriptElementSupport.java:143)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.HtmlScript.onAllChildrenAddedToPage(HtmlScript.java:191)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.parser.neko.HtmlUnitNekoDOMBuilder.endElement(HtmlUnitNekoDOMBuilder.java:572)
+	at net.sourceforge.htmlunit.xerces.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:451)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.parser.neko.HtmlUnitNekoDOMBuilder.endElement(HtmlUnitNekoDOMBuilder.java:517)
+	at net.sourceforge.htmlunit.cyberneko.HTMLTagBalancer.callEndElement(HTMLTagBalancer.java:1242)
+	at net.sourceforge.htmlunit.cyberneko.HTMLTagBalancer.endElement(HTMLTagBalancer.java:1169)
+	at net.sourceforge.htmlunit.cyberneko.filters.DefaultFilter.endElement(DefaultFilter.java:218)
+	at net.sourceforge.htmlunit.cyberneko.filters.NamespaceBinder.endElement(NamespaceBinder.java:310)
+	at net.sourceforge.htmlunit.cyberneko.HTMLScanner$ContentScanner.scanEndElement(HTMLScanner.java:3145)
+	at net.sourceforge.htmlunit.cyberneko.HTMLScanner$ContentScanner.scan(HTMLScanner.java:2091)
+	at net.sourceforge.htmlunit.cyberneko.HTMLScanner.scanDocument(HTMLScanner.java:918)
+	at net.sourceforge.htmlunit.cyberneko.HTMLConfiguration.parse(HTMLConfiguration.java:367)
+	at net.sourceforge.htmlunit.cyberneko.HTMLConfiguration.parse(HTMLConfiguration.java:318)
+	at net.sourceforge.htmlunit.xerces.parsers.XMLParser.parse(XMLParser.java:80)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.parser.neko.HtmlUnitNekoDOMBuilder.parse(HtmlUnitNekoDOMBuilder.java:773)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.parser.neko.HtmlUnitNekoHtmlParser.parse(HtmlUnitNekoHtmlParser.java:204)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.DefaultPageCreator.createHtmlPage(DefaultPageCreator.java:299)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.DefaultPageCreator.createPage(DefaultPageCreator.java:219)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.WebClient.loadWebResponseInto(WebClient.java:669)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.WebClient.loadWebResponseInto(WebClient.java:571)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:489)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:396)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:534)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:516)
+	at fr.cda.scraping/fr.cda.scraping.MainTest.main(MainTest.java:53)
+Caused by: net.sourceforge.htmlunit.corejs.javascript.EvaluatorException: syntax error (https://static-seloger.com/commons/ajax/functions/RedirectExternalLink.js#52)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory$HtmlUnitErrorReporter.error(HtmlUnitContextFactory.java:435)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.addError(Parser.java:257)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:336)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:327)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:320)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.primaryExpr(Parser.java:3160)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.memberExpr(Parser.java:2711)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.unaryExpr(Parser.java:2614)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.expExpr(Parser.java:2534)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.mulExpr(Parser.java:2517)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.addExpr(Parser.java:2503)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.shiftExpr(Parser.java:2486)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.relExpr(Parser.java:2464)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.eqExpr(Parser.java:2440)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitAndExpr(Parser.java:2431)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitXorExpr(Parser.java:2422)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitOrExpr(Parser.java:2413)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.andExpr(Parser.java:2404)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.orExpr(Parser.java:2395)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.condExpr(Parser.java:2362)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.assignExpr(Parser.java:2320)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.arrayLiteral(Parser.java:3264)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.primaryExpr(Parser.java:3085)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.memberExpr(Parser.java:2711)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.unaryExpr(Parser.java:2614)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.expExpr(Parser.java:2534)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.mulExpr(Parser.java:2517)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.addExpr(Parser.java:2503)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.shiftExpr(Parser.java:2486)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.relExpr(Parser.java:2464)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.eqExpr(Parser.java:2440)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitAndExpr(Parser.java:2431)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitXorExpr(Parser.java:2422)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitOrExpr(Parser.java:2413)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.andExpr(Parser.java:2404)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.orExpr(Parser.java:2395)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.condExpr(Parser.java:2362)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.assignExpr(Parser.java:2320)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.expr(Parser.java:2303)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1249)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statements(Parser.java:1063)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.block(Parser.java:1993)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1218)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.getNextStatementAfterInlineComments(Parser.java:1458)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.forLoop(Parser.java:1568)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1170)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.parseFunctionBody(Parser.java:736)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.function(Parser.java:911)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.function(Parser.java:845)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.primaryExpr(Parser.java:3081)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.memberExpr(Parser.java:2711)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.unaryExpr(Parser.java:2614)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.expExpr(Parser.java:2534)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.mulExpr(Parser.java:2517)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.addExpr(Parser.java:2503)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.shiftExpr(Parser.java:2486)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.relExpr(Parser.java:2464)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.eqExpr(Parser.java:2440)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitAndExpr(Parser.java:2431)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitXorExpr(Parser.java:2422)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitOrExpr(Parser.java:2413)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.andExpr(Parser.java:2404)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.orExpr(Parser.java:2395)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.condExpr(Parser.java:2362)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.assignExpr(Parser.java:2320)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.argumentList(Parser.java:2682)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.memberExprTail(Parser.java:2826)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.memberExpr(Parser.java:2746)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.unaryExpr(Parser.java:2614)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.expExpr(Parser.java:2534)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.mulExpr(Parser.java:2517)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.addExpr(Parser.java:2503)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.shiftExpr(Parser.java:2486)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.relExpr(Parser.java:2464)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.eqExpr(Parser.java:2440)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitAndExpr(Parser.java:2431)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitXorExpr(Parser.java:2422)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitOrExpr(Parser.java:2413)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.andExpr(Parser.java:2404)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.orExpr(Parser.java:2395)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.condExpr(Parser.java:2362)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.assignExpr(Parser.java:2320)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.expr(Parser.java:2303)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.nameOrLabel(Parser.java:2061)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1240)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.parse(Parser.java:632)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.parse(Parser.java:562)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.parse(Context.java:2549)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileImpl(Context.java:2480)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileString(Context.java:1448)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory$TimeoutContext.compileString(HtmlUnitContextFactory.java:221)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileString(Context.java:1436)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$1.doRun(JavaScriptEngine.java:821)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:984)
+	... 36 more
+Enclosed exception: 
+net.sourceforge.htmlunit.corejs.javascript.EvaluatorException: syntax error (https://static-seloger.com/commons/ajax/functions/RedirectExternalLink.js#52)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory$HtmlUnitErrorReporter.error(HtmlUnitContextFactory.java:435)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.addError(Parser.java:257)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:336)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:327)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:320)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.primaryExpr(Parser.java:3160)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.memberExpr(Parser.java:2711)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.unaryExpr(Parser.java:2614)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.expExpr(Parser.java:2534)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.mulExpr(Parser.java:2517)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.addExpr(Parser.java:2503)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.shiftExpr(Parser.java:2486)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.relExpr(Parser.java:2464)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.eqExpr(Parser.java:2440)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitAndExpr(Parser.java:2431)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitXorExpr(Parser.java:2422)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitOrExpr(Parser.java:2413)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.andExpr(Parser.java:2404)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.orExpr(Parser.java:2395)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.condExpr(Parser.java:2362)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.assignExpr(Parser.java:2320)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.arrayLiteral(Parser.java:3264)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.primaryExpr(Parser.java:3085)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.memberExpr(Parser.java:2711)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.unaryExpr(Parser.java:2614)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.expExpr(Parser.java:2534)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.mulExpr(Parser.java:2517)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.addExpr(Parser.java:2503)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.shiftExpr(Parser.java:2486)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.relExpr(Parser.java:2464)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.eqExpr(Parser.java:2440)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitAndExpr(Parser.java:2431)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitXorExpr(Parser.java:2422)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitOrExpr(Parser.java:2413)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.andExpr(Parser.java:2404)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.orExpr(Parser.java:2395)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.condExpr(Parser.java:2362)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.assignExpr(Parser.java:2320)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.expr(Parser.java:2303)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1249)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statements(Parser.java:1063)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.block(Parser.java:1993)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1218)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.getNextStatementAfterInlineComments(Parser.java:1458)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.forLoop(Parser.java:1568)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1170)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.parseFunctionBody(Parser.java:736)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.function(Parser.java:911)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.function(Parser.java:845)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.primaryExpr(Parser.java:3081)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.memberExpr(Parser.java:2711)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.unaryExpr(Parser.java:2614)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.expExpr(Parser.java:2534)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.mulExpr(Parser.java:2517)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.addExpr(Parser.java:2503)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.shiftExpr(Parser.java:2486)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.relExpr(Parser.java:2464)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.eqExpr(Parser.java:2440)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitAndExpr(Parser.java:2431)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitXorExpr(Parser.java:2422)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitOrExpr(Parser.java:2413)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.andExpr(Parser.java:2404)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.orExpr(Parser.java:2395)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.condExpr(Parser.java:2362)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.assignExpr(Parser.java:2320)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.argumentList(Parser.java:2682)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.memberExprTail(Parser.java:2826)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.memberExpr(Parser.java:2746)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.unaryExpr(Parser.java:2614)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.expExpr(Parser.java:2534)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.mulExpr(Parser.java:2517)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.addExpr(Parser.java:2503)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.shiftExpr(Parser.java:2486)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.relExpr(Parser.java:2464)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.eqExpr(Parser.java:2440)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitAndExpr(Parser.java:2431)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitXorExpr(Parser.java:2422)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.bitOrExpr(Parser.java:2413)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.andExpr(Parser.java:2404)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.orExpr(Parser.java:2395)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.condExpr(Parser.java:2362)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.assignExpr(Parser.java:2320)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.expr(Parser.java:2303)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.nameOrLabel(Parser.java:2061)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1240)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.parse(Parser.java:632)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.parse(Parser.java:562)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.parse(Context.java:2549)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileImpl(Context.java:2480)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileString(Context.java:1448)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory$TimeoutContext.compileString(HtmlUnitContextFactory.java:221)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileString(Context.java:1436)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$1.doRun(JavaScriptEngine.java:821)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:984)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
+	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.compile(JavaScriptEngine.java:830)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.compile(JavaScriptEngine.java:796)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.compile(JavaScriptEngine.java:118)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.HtmlPage.loadJavaScriptFromUrl(HtmlPage.java:1153)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.HtmlPage.loadExternalJavaScriptFile(HtmlPage.java:1024)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.ScriptElementSupport.executeScriptIfNeeded(ScriptElementSupport.java:196)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.ScriptElementSupport$1.execute(ScriptElementSupport.java:120)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.ScriptElementSupport.onAllChildrenAddedToPage(ScriptElementSupport.java:143)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.HtmlScript.onAllChildrenAddedToPage(HtmlScript.java:191)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.parser.neko.HtmlUnitNekoDOMBuilder.endElement(HtmlUnitNekoDOMBuilder.java:572)
+	at net.sourceforge.htmlunit.xerces.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:451)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.parser.neko.HtmlUnitNekoDOMBuilder.endElement(HtmlUnitNekoDOMBuilder.java:517)
+	at net.sourceforge.htmlunit.cyberneko.HTMLTagBalancer.callEndElement(HTMLTagBalancer.java:1242)
+	at net.sourceforge.htmlunit.cyberneko.HTMLTagBalancer.endElement(HTMLTagBalancer.java:1169)
+	at net.sourceforge.htmlunit.cyberneko.filters.DefaultFilter.endElement(DefaultFilter.java:218)
+	at net.sourceforge.htmlunit.cyberneko.filters.NamespaceBinder.endElement(NamespaceBinder.java:310)
+	at net.sourceforge.htmlunit.cyberneko.HTMLScanner$ContentScanner.scanEndElement(HTMLScanner.java:3145)
+	at net.sourceforge.htmlunit.cyberneko.HTMLScanner$ContentScanner.scan(HTMLScanner.java:2091)
+	at net.sourceforge.htmlunit.cyberneko.HTMLScanner.scanDocument(HTMLScanner.java:918)
+	at net.sourceforge.htmlunit.cyberneko.HTMLConfiguration.parse(HTMLConfiguration.java:367)
+	at net.sourceforge.htmlunit.cyberneko.HTMLConfiguration.parse(HTMLConfiguration.java:318)
+	at net.sourceforge.htmlunit.xerces.parsers.XMLParser.parse(XMLParser.java:80)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.parser.neko.HtmlUnitNekoDOMBuilder.parse(HtmlUnitNekoDOMBuilder.java:773)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.html.parser.neko.HtmlUnitNekoHtmlParser.parse(HtmlUnitNekoHtmlParser.java:204)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.DefaultPageCreator.createHtmlPage(DefaultPageCreator.java:299)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.DefaultPageCreator.createPage(DefaultPageCreator.java:219)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.WebClient.loadWebResponseInto(WebClient.java:669)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.WebClient.loadWebResponseInto(WebClient.java:571)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:489)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:396)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:534)
+	at htmlunit@2.70.0/com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:516)
+	at fr.cda.scraping/fr.cda.scraping.MainTest.main(MainTest.java:53)
+== CALLING JAVASCRIPT ==
+document.ReplaceByLink = (el, url) => {
+  if (el == null)
+    return;
+
+  var linkEl = document.createElement('a');
+
+  linkEl.setAttribute('href', url);
+  if (el.getAttribute('target') !== null) {
+    linkEl.setAttribute('target', el.getAttribute('target'));
+  } else {
+    linkEl.setAttribute('target', el.getAttribute('data-target'));
+  }
+  if (el.getAttribute('data-rel') !== null) {
+    linkEl.setAttribute('rel', el.getAttribute('data-rel'));
+  }
+  if (el.getAttribute('data-onClick') !== null) {
+    linkEl.setAttribute('onclick', el.getAttribute('data-onClick'));
+  }
+  linkEl.setAttribute('class', el.className);
+  if (el.innerHTML == '') {
+    linkEl.innerHTML = url
+  } else {
+    linkEl.innerHTML = el.innerHTML
+  }
+  el.replaceWith(linkEl);
+}
+
+// Used to test is user and not bot (only user access to this files with robot.txt)
+window.isRealUser = {
+  isUser: true
+};
+
+window.addEventListener('load', function () {
+  // Used for static links
+  const linksId = {
+    'demenagez-engie': 'https://particuliers.engie.fr/demenagement.html?utm_medium=referral&utm_source=seloger&utm_campaign=partenariat',
+    'georisques': 'https://www.georisques.gouv.fr',
+  }
+
+  const linksClass = {
+    'aviv-companies': 'https://www.aviv-group.com/companies'
+  }
+
+  // By id
+  for (const [label, url] of Object.entries(linksId)) {
+    var el = document.getElementById(label);
+    document.ReplaceByLink(el, url);
+  }
+  // By class
+  for (const [label, url] of Object.entries(linksClass)) {
+    var elements = document.getElementsByClassName(label);
+    [...elements].forEach((el) => {
+      document.ReplaceByLink(el, url);
+    })
+
+  }
+
+  // Used for non static link
+  var elements = document.getElementsByClassName('botHiddenLink');
+  [...elements].forEach((el) => {
+    var url = el.getAttribute('data-first-part');
+    if (el.getAttribute('data-mid-part') != '')
+      url += '.' + el.getAttribute('data-mid-part')
+    url += '.' + el.getAttribute('data-last-part');
+    el.setAttribute('href', url);
+  });
+});
+======= EXCEPTION END ========

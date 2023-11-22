@@ -11,7 +11,7 @@ import java.net.ConnectException;
 import java.util.logging.Logger;
 
 public class JPATools {
-    protected String unit = "scraping";
+    protected String unit = "home";
     protected EntityManagerFactory entityManagerFactory;
     protected EntityManager entityManager;
     protected EntityTransaction entityTransaction;
