@@ -2,7 +2,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-src/main/resources/fr/cda/scraping/files/france-latest.osm.pbf
+src/main/resources/fr/cda/immobilier/files/france-latest.osm.pbf
 
 
 ### IntelliJ IDEA ###

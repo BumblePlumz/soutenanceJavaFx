@@ -1,0 +1,4 @@
+12:41:59.209 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'Vannes' for key 'city'
+13:27:16.944 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Column 'dateCreation' cannot be null
+13:28:18.860 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Column 'dateCreation' cannot be null
+13:31:38.482 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'Vannes' for key 'city'

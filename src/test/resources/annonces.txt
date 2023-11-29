@@ -1,0 +1,599 @@
+Annonce numéro 0
+		titre : Appartement 3 pièces
+		href : https://www.ouestfrance-immo.com/immobilier/vente/appartement/vannes-56-56260/3-pieces-17438767.htm
+		propriétés : 
+			description    : iad France - Erwan Cholet vous propose : Exclusivité quartier BONDON – Appartement T3 en rez-de-chaussée avec une terrasse, un box en sous-sol et une place de parking. L’appartement se situe au calme dans une Résidence sécurisée de 2013 avec ascenseur. L’entrée avec placard donne sur la belle pièce de vie lumineuse  avec la cuisine ouverte et équipée. Celle-ci est prolongée par la terrasse de 27m² environ idéalement orienté (Sud/Ouest). Un dégagement dessert les 2 chambres avec placards intégrés, la salle de bain et les toilettes séparés. L’appartement est situé sur la rue Bondon (très peu passante et à sens unique) : - à 3 min des commerces et écoles. - à 6 min de la gare de Vannes - au pied de la ligne de bus n°5 - à 3 min de l’axe Lorient/Nantes (N165) - à 3 min de la zone commerciale Parc Lann - à 8 min du Port Les + : EXPOSITION, AGENCEMENT, CALME, grande TERRASSE, AUCUN VIS-A-VIS, aux normes PMR, 1 BOX en sous-sol sécurisé, 1 place de PARKING, local vélo, fibre La présente annonce immobilière vise 1 lot principal situé dans une copropriété formant 23 lots au total ne faisant l'objet d'aucune procédure en cours et d'un montant de charges d’environ 83.13 € par mois (soit 997.56 € annuel) déclaré par le vendeur.Honoraires d’agence à la charge du vendeur.Information d'affichage énergétique sur ce bien : classe ENERGIE B indice 79 et classe CLIMAT C indice 14.   Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr.  La présente annonce immobilière a été rédigée sous la responsabilité éditoriale de M. Erwan Cholet EI (ID 55305), mandataire indépendant en immobilier (sans détention de fonds), agent commercial de la SAS I@D France immatriculé au RSAC de NANTES sous le numéro 893776765, titulaire de la carte de démarchage immobilier pour le compte de la société I@D France SAS. Retrouvez tous nos biens sur notre site internet. Réf. 1425919 - 29/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente appartement 3 pièces à Vannes  Obtenir l'adresse du bien      8 photos  Exclu     259 900 €                        Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 259900
+			size           : 57
+			room           : 2
+			bedroom        : 1
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-appartement-vannes-56/201/appartement-a-vendre-vannes-17438767_1_1701231263_832aed59f6c9ba0a67ed69e5681dcde4_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Maison 4 chambres
+		href : https://www.ouestfrance-immo.com/immobilier/vente/maison/vannes-56-56260/17438717.htm
+		propriétés : 
+			description    : VANNES - GARE A deux pas de la gare de Vannes, coup de coeur pour cette jolie maison entièrement rénovée en 2015. Elle se compose au rez de chaussée d'une entrée avec placard, d'une belle pièce de vie donnant sur le jardin avec une cuisine aménagée et équipée, une buanderie vient compléter ce niveau. Au premier étage, une chambre avec sa salle de bains, une seconde chambre, une salle d'eau et un wc. Au second étage, deux chambres dont une avec mezzanine, une salle d'eau et un wc. La maison dispose également d'un studio attenant. Réf VA2310016 Honoraires inclus de  4%  TTC à la charge de l'acquéreur. Prix hors honoraires 595 000 €. Dans une copropriété de 10 lots. Aucune procédure n'est en cours. Classe énergie C, Classe climat C Montant moyen estimé des dépenses annuelles d'énergie pour un usage standard, établi à partir des prix de l'énergie de l'année 2023 : entre 910.00 et 1290.00 €. Nos honoraires : www.georisques.gouv.fr  Réf. VA2310016-LEBEC - 29/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente maison 7 pièces à Vannes  Obtenir l'adresse du bien      15 photos     618 800 €                        Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 618800
+			size           : 116
+			room           : 4
+			bedroom        : 3
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-maison-vannes-56/207/maison-a-vendre-vannes-17438717_1_1701227825_c774fe959446a18ee097b29a86a9305f_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Appartement T1
+		href : https://www.ouestfrance-immo.com/immobilier/vente/appartement/vannes-56-56260/t1-17438112.htm
+		propriétés : 
+			description    : Rare. Situation idéale. Centre historique de Vannes. T1 bis, meublé, très cosy, situé au premier  étage d'un immeuble de caractère, en cours de restauration (les travaux sont payés par le vendeur). Au calme, côté court, il vous propose une entrée avec placard, pièce de vie  très lumineuse , un coin cuisine aménagée et équipée,   salle d'eau avec toilettes. www.georisques.gouv.fr  Réf. BZH-VAN-92937-DK - 29/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente appartement 1 pièce à Vannes  Obtenir l'adresse du bien      5 photos     159 900 €                        Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 159900
+			size           : 30
+			room           : 
+			bedroom        : 1
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-appartement-vannes-56/201/appartement-a-vendre-vannes-17438112_1_1701226088_40957edcd6d04cd8bc56f477cf1a1018_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Appartement 6 pièces +
+		href : https://www.ouestfrance-immo.com/immobilier/vente/appartement/vannes-56-56260/6-pieces-et-plus-17437452.htm
+		propriétés : 
+			description    : VANNES HYPER CENTRE DUPLEX 170 M² En duplex au dernier étage, dans un immeuble sécurisé, appartement d'exception traversant construit en 2019 avec ascenseur. Il comprend entrée, vaste séjour très lumineux avec terrasse sans vis à vis, exposée ouest, cuisine moderne aménagée/ équipée avec cave à vin avec accès direct sur terrasse, cellier, suite parentale, avec salle d’eau/ dressing, WC. Au premier étage, deux chambres avec salle d’eau, WC, studio de 40 m² avec lit escamotable, cuisine salle d’eau, WC Garage, 3 places de parking couvertes.  SES PLUS : 50 m² de terrasse, commerces et port à pied, stationnement, fermeture centralisées, fenêtres toutes oscillo-battantes.  Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr Réf. 106190 - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente appartement 6 pièces à Vannes  Obtenir l'adresse du bien      2 photos     1 359 800 €                        Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 1359800
+			size           : 170
+			room           : 4
+			bedroom        : 3
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-appartement-vannes-56/201/appartement-a-vendre-vannes-17437452_1_1701208635_897f62da9b4993c0b71f69b0b229770d_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Appartement 4 pièces
+		href : https://www.ouestfrance-immo.com/immobilier/vente/appartement/vannes-56-56260/4-pieces-17437447.htm
+		propriétés : 
+			description    : A 5 mn du centre ville de Vannes, gare et Hôpital cette appartement t4 vous séduira par sa luminosité, il offre une entrée avec penderie, séjour, cuisine A/E, 3 chambres, sde, wc, cave, place de parking extérieur, local vélo commun. Double vitrage, fibre optique.  A voir rapidement!!  " Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr Réf. 106119GP - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente appartement 4 pièces à Vannes Centre Ville  Obtenir l'adresse du bien      8 photos     241 500 €                       Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 241500
+			size           : 62
+			room           : 3
+			bedroom        : 1
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-appartement-vannes-centre-ville-56/201/appartement-a-vendre-vannes-centre-ville-17437447_1_1701208625_c986b91fbd17e438f39b8cb43dcf76f1_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Maison 4 chambres
+		href : https://www.ouestfrance-immo.com/immobilier/vente/maison/vannes-56-56260/17437193.htm
+		propriétés : 
+			description    : VENTE : maison F5 (125 m²) à Vannes PROCHE CENTRE-VILLE - MAISON 5 PIÈCES NEUVE En vente : nous sommes heureux de vous présenter cette maison de 5 pièces 125 m² à Vannes (56000). Il s'agit d'une maison sur 2 niveaux. Elle comporte quatre chambres, une cuisine et deux salles de bains. Cette maison est neuve. Le terrain du bien s'étend sur 670 m². Le bien est situé non loin du centre-ville. On trouve tous les types d'établissements scolaires (maternelle, élémentaire et secondaire) à moins de 10 minutes à pied. Niveau transports, il y a la gare Vannes juste à côté. Les nationales N165 et N166 sont accessibles à moins de 2 km. On trouve une bibliothèque, des commerces, des boulangeries, deux supermarchés, des boucheries et un bureau de poste dans les environs. Le marché Place des Lices anime les environs. Il est à vendre pour la somme de 687 600 €. Contactez notre agence pour plus de renseignements sur la maison. Maisons de l'Avenir Vannes vous accompagne dans toutes vos démarches et dans tous vos projets immobiliers.    www.georisques.gouv.fr  Réf. CE1737386_5 - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente maison 5 pièces à Vannes Centre Ville  Obtenir l'adresse du bien      5 photos     687 600 €                       Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 687600
+			size           : 125
+			room           : 4
+			bedroom        : 2
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-maison-vannes-centre-ville-56/207/maison-a-vendre-vannes-centre-ville-17437193_1_1701203950_01b6d137fba8471bd1bdec6f33bb9030_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Maison 5 chambres
+		href : https://www.ouestfrance-immo.com/immobilier/vente/maison/vannes-56-56260/17437192.htm
+		propriétés : 
+			description    : VENTE : maison 6 pièces (148 m²) à Vannes PROCHE CENTRE-VILLE - MAISON 6 PIÈCES NEUVE En vente : nous sommes ravis de vous présenter à Vannes (56000) cette maison de 6 pièces 148 m² et de 670 m² de terrain. Il s'agit d'une maison sur 2 niveaux. Elle est composée de cinq chambres, d'une cuisine et de deux salles de bains. Cette maison est neuve. Cette maison est située non loin du centre-ville. On trouve des écoles de tous niveaux (de la maternelle au lycée) à moins de 10 minutes à pied. Niveau transports, il y a la gare Vannes. Les nationales N165 et N166 sont accessibles à moins de 2 km. On trouve des commerces, des boulangeries, deux supermarchés, un bureau de poste et trois poissonneries à proximité. Enfin, le marché Place des Lices anime les environs. Elle est à vendre pour la somme de 722 600 €. Contactez notre agence pour plus d'informations sur la maison ou sur les démarches à suivre.    www.georisques.gouv.fr  Réf. CE1737386_4 - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente maison 6 pièces à Vannes Centre Ville  Obtenir l'adresse du bien      5 photos     722 600 €                       Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 722600
+			size           : 148
+			room           : 5
+			bedroom        : 2
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-maison-vannes-centre-ville-56/207/maison-a-vendre-vannes-centre-ville-17437192_1_1701203949_d28630dbf70b4175c123fa5f9bd8604a_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Maison 4 chambres
+		href : https://www.ouestfrance-immo.com/immobilier/vente/maison/vannes-56-56260/17437191.htm
+		propriétés : 
+			description    : VENTE : maison 5 pièces (142 m²) à Vannes PROCHE CENTRE-VILLE - MAISON 5 PIÈCES NEUVE En vente : Maisons de l'Avenir Vannes vous propose cette maison de 5 pièces 142 m² à Vannes (56000). Elle compte 2 niveaux. Son intérieur est composé de quatre chambres, d'une cuisine et de deux salles de bains. Cette maison est neuve. Le terrain de la propriété est de 670 m². La maison se situe non loin du centre-ville. Il y a tous les types d'écoles à moins de 10 minutes à pied. Niveau transports en commun, on trouve la gare Vannes. Les nationales N165 et N166 sont accessibles à moins de 2 km. Il y a des commerces, des boulangeries, deux supermarchés, des boucheries et un bureau de poste dans les environs. Le marché Place des Lices anime les environs. Son prix de vente est de 699 600 €. N'hésitez pas à prendre contact avec notre agence pour toute information sur cette maison ou sur les démarches à suivre.    www.georisques.gouv.fr  Réf. CE1737386_3 - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente maison 5 pièces à Vannes Centre Ville  Obtenir l'adresse du bien      6 photos     699 600 €                       Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 699600
+			size           : 142
+			room           : 4
+			bedroom        : 2
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-maison-vannes-centre-ville-56/207/maison-a-vendre-vannes-centre-ville-17437191_1_1701203948_29007e41de3c99c6f78701b1e3c6e20b_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Maison 4 chambres
+		href : https://www.ouestfrance-immo.com/immobilier/vente/maison/vannes-56-56260/17437190.htm
+		propriétés : 
+			description    : VENTE : maison F5 (140 m²) à Vannes PROCHE CENTRE-VILLE - MAISON 5 PIÈCES NEUVE En vente à Vannes (56000), nous vous proposons cette maison de 5 pièces 140 m². Elle compte quatre chambres, une cuisine et deux salles de bains. Le terrain de cette maison s'étend sur 670 m². Cette maison comporte 2 niveaux. Elle est neuve. Cette maison se trouve non loin du centre-ville. Des écoles (de la maternelle au lycée) sont implantées à moins de 10 minutes à pied. Niveau transports, on trouve la gare de Vannes. Les nationales N165 et N166 sont accessibles à moins de 2 km. Il y a des commerces, des boulangeries, deux supermarchés, trois poissonneries et trois supérettes dans les environs. Enfin, le marché Place des Lices anime les environs. Son prix de vente est de 714 600 €. Contactez notre agence pour plus d'informations sur la propriété ou sur les modalités de vente.    www.georisques.gouv.fr  Réf. CE1737386_2 - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente maison 5 pièces à Vannes Centre Ville  Obtenir l'adresse du bien      6 photos     714 600 €                       Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 714600
+			size           : 140
+			room           : 4
+			bedroom        : 2
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-maison-vannes-centre-ville-56/207/maison-a-vendre-vannes-centre-ville-17437190_1_1701203947_e6e830b1b276e031e7860d2eee3d2c04_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Maison 4 chambres
+		href : https://www.ouestfrance-immo.com/immobilier/vente/maison/vannes-56-56260/17437189.htm
+		propriétés : 
+			description    : VENTE : maison F5 (148 m²) à Vannes PROCHE CENTRE-VILLE - MAISON 5 PIÈCES NEUVE En vente : à Vannes (56000), Maisons de l'Avenir Vannes vous propose cette maison de 5 pièces 148 m². Elle possède 2 niveaux. Son intérieur dispose de quatre chambres, d'une cuisine et de deux salles de bains. Cette maison est neuve. Le terrain du bien est de 670 m². Cette maison est située non loin du centre-ville. Il y a des écoles du primaire et du secondaire à moins de 10 minutes à pied. Côté transports, on trouve la gare de Vannes. Les nationales N165 et N166 sont accessibles à moins de 2 km. Il y a une des commerces, des boulangeries, deux supermarchés, trois supérettes et trois poissonneries à proximité. Le marché Place des Lices anime le quartier. Son prix de vente est de 713 600 €. Prenez contact avec notre agence pour toute information sur la maison, sur les démarches à suivre ou sur les modalités de vente.    www.georisques.gouv.fr  Réf. CE1737386_1 - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente maison 5 pièces à Vannes Centre Ville  Obtenir l'adresse du bien      5 photos     713 600 €                       Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 713600
+			size           : 148
+			room           : 4
+			bedroom        : 2
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-maison-vannes-centre-ville-56/207/maison-a-vendre-vannes-centre-ville-17437189_1_1701203946_f3f3843d4c09da3db25ab60062d727ba_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Appartement 2 pièces
+		href : https://www.ouestfrance-immo.com/immobilier/vente/appartement/vannes-56-56260/2-pieces-17436417.htm
+		propriétés : 
+			description    : EXCLUSIVITÉ BLOT - VANNES QUARTIER PALAIS DES ARTS - APPARTEMENT T2 AVEC EXTÉRIEUR ET VUE DÉGAGÉE  Venez découvrir ce grand appartement de type 2 de 60m², situé au dernier étage d'un immeuble idéalement situé dans le quartier de Pompidou, à quelques minutes à pied de la gare et du centre-ville de Vannes.  Cet appartement vous offre une belle pièce de vie de 36m², donnant sur un balcon avec vue sur la ville de Vannes et ouverte sur une cuisine aménagée et équipée. Une salle de bains et une chambre de plus de 12m² complètent cet appartement.  Vous pourrez également profiter d'une cave et d'emplacements de stationnement réservés aux résidents.  À visiter sans tarder !  CLASSE ÉNERGIE : D - CLASSE CLIMAT : D  Les informations sur les risques naturels, miniers, ou technologiques, auxquels ces biens sont exposés, sont disponibles sur le site www.georisques.gouv.fr  Charges de copropriété annuelles : 730 €  Nombre de lots dans la copropriété : 280 dont 118 lots d'habitation.  Réf. : 5871-SP  Au prix de 179 900 € FAI dont un forfait de 9 900 € TTC d'honoraires à la charge de l'acquéreur. Prix Net Vendeur : 170 000 €.  Ce bien vous est présenté par l'agence Blot Immobilier Vannes - 39 rue Thiers -. Réf. 5871-SP-28 - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente appartement 2 pièces à Vannes Gare - Hôpital  Obtenir l'adresse du bien      5 photos  Exclu     179 900 €                       Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 179900
+			size           : 61
+			room           : 1
+			bedroom        : 1
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-appartement-vannes-gare-hopital-56/201/appartement-a-vendre-vannes-gare-hopital-17436417_1_1701186122_3fe4fe4ffd33e0583acbc279deba0f94_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Terrain 673 m²
+		href : https://www.ouestfrance-immo.com/immobilier/vente/terrain/vannes-56-56260/17436416.htm
+		propriétés : 
+			description    : EXCLUSIVITÉ BLOT - À VENDRE TERRAIN CONSTRUCTIBLE 673 M²  Situé dans le quartier résidentiel de Kerbiquette à Vannes, terrain arboré de 673m², dans un cadre verdoyant et à proximité immédiate de toutes les commodités; Rare sur le secteur, à visiter sans tarder ! Terrain vendu non viabilisé.  Les informations sur les risques naturels, miniers, ou technologiques,  auxquels ces biens sont exposés, sont disponibles sur le site www.georisques.gouv.fr  Réf : 5608-LH  *Au prix de 210 000 € FAI dont un forfait de 10 000 € TTC d'honoraires à la charge de l'acquéreur. Prix Net Vendeur : 200 000 €.  Ce bien vous est présenté par l'agence Blot Immobilier Vannes - 39 rue Thiers -. Réf. 5608-LH-28 - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente de terrain 673 m² à Vannes  Obtenir l'adresse du bien      1 photo  Exclu     210 000 €                        Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 210000
+			size           : 673
+			room           : 
+			bedroom        : 
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-terrain-vannes-56/208/terrain-a-vendre-vannes-17436416_1_1701186122_61213d126836c88b3376f30b38c4ea77_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Appartement 4 pièces
+		href : https://www.ouestfrance-immo.com/immobilier/vente/appartement/vannes-56-56260/4-pieces-17436346.htm
+		propriétés : 
+			description    : Ne cherchez plus et venez découvrir ce très bel appartement de 75m2, proche du centre-ville et de toutes les commodités ! vous trouverez : - Une vaste entrée avec une pièce dressing, - une belle et lumineuse pièce de vie donnant sur un balcon à la vue dégagée, - une cuisine indépendante aménagée et équipée, - 3 chambres de belles dispositions, - une salle de bain avec douche à l'italienne et double vasque, - un WC séparé. le salon séjour donnant sur le balcon est exposé plein sud.  Nombreux rangements. -  un Garage BOX fermé  et  un local à vélo collectif complète ce magnifique appartement.  Venez découvrir cette pépite où il n'y a plus qu'à poser ses valises et à profiter ! (5.31 % d'honoraires TTC à la charge de l'acquéreur.) Copropriété de 108 lots (Pas de procédure en cours).  Charges annuelles : 800 euros. www.georisques.gouv.fr  Réf. 1681NJ - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente appartement 4 pièces à Vannes Centre Ville  Obtenir l'adresse du bien      10 photos     258 000 €                       Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 258000
+			size           : 76
+			room           : 3
+			bedroom        : 1
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-appartement-vannes-centre-ville-56/201/appartement-a-vendre-vannes-centre-ville-17436346_1_1701184263_e1f7133e303196fe5542a2d29027621b_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Maison 7 chambres
+		href : https://www.ouestfrance-immo.com/immobilier/vente/maison/vannes-56-56260/17436190.htm
+		propriétés : 
+			description    : Idéalement située à 5 minutes de la Gare de Vannes et proche des axes routiers Rennes/Nantes/Lorient Très belle Maison en Pierre de type Longère de 1872 de 289m², située plein sud, classée C et entièrement rénovée sur 1469m² de terrain environ avec un garage double. Elle dispose d'une maison principale ainsi que : 1 T2 et 2 studios pour un rapport locatif de 1800€ par mois. La maison principale se compose au rez de chaussée : d'une entrée avec placard, une cuisine aménagée et équipée ouverte sur une très grande pièce de vie, une arrière cuisine avec son espace buanderie, une salle à manger et un salon avec cheminée et mur en pierre avec une belle hauteur sous plafond, poutres en bois apparentes, d'une chambre parentale avec la salle de bain et douche privative et d'un wc. A l'étage : une mezzanine-bureau avec vide sur séjour, une chambre et un autre espace nuit. Elle dispose également d'un autre espace occasionnellement loué : 2 chambres, un coin cuisine, une salle d'eau et un wc. Cet espace est accessible de la mezzanine et dispose également d'un accès par l'extérieur. Coté extérieur : un jardin, une terrasse aménagée, des espaces paysagés et un potager. Le terrain est piscinable. Cette maison a beaucoup de potentiel et peut convenir à plusieurs projets ! Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr Prix de vente : 1 238 000 € Honoraires charge vendeur Contactez votre conseiller SAFTI : Françoise HULLAERT,,  - EI - Agent commercial immatriculé au RSAC de VANNES sous le numéro 788 952 299 Réf. 1136939 - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente maison 10 pièces à Vannes Nord-est  Obtenir l'adresse du bien      13 photos     1 238 000 €                       Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 1238000
+			size           : 289
+			room           : 7
+			bedroom        : 5
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-maison-vannes-nord-est-56/207/maison-a-vendre-vannes-nord-est-17436190_1_1701180135_39a5dba19ad87bbdd5fb76e6f52528f1_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Maison 5 chambres
+		href : https://www.ouestfrance-immo.com/immobilier/vente/maison/vannes-56-56260/17436211.htm
+		propriétés : 
+			description    : Idéalement située, à 1km de la gare de vannes et proche de toutes les commodités, bus à pied... Belle maison  traditionnelle à rénover de 122m² habitable sur sous-sol total de 90m² avec beaucoup de potentiel. Elle se compose au rez de jardin d'une entrée, d'un salon-séjour exposé sud, d'une cuisine avec accès direct sur terrasse et jardin, de 3 chambres, d'une salle de bain et d'un wc indépendant. A l'étage, un couloir dessert 2 chambres, un wc indépendant et de 2 greniers aménageables. Le tout avec un jardin. A voir impérativement ! A voir impérativement ! Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr Prix de vente : 479 000 € Honoraires charge vendeur Contactez votre conseiller SAFTI : Françoise HULLAERT,,  - EI - Agent commercial immatriculé au RSAC de VANNES sous le numéro 788 952 299 Réf. 1008788 - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente maison 6 pièces à Vannes Gare - Hôpital  Obtenir l'adresse du bien      14 photos     479 000 €                       Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 479000
+			size           : 122
+			room           : 5
+			bedroom        : 2
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-maison-vannes-gare-hopital-56/207/maison-a-vendre-vannes-gare-hopital-17436211_1_1701180285_28af467b9f3afffd0ac7a433a82dc724_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Appartement T1
+		href : https://www.ouestfrance-immo.com/immobilier/vente/appartement/vannes-56-56260/t1-17435704.htm
+		propriétés : 
+			description    : EN EXCLUSIVITÉ ! VANNES, dans le quartier de la MADELEINE, dans une rue calme, proches des commodités. Dans une résidence calme je vous propose ce bel appartement comprenant, un entrée sur pièce de vie lumineuse, une cuisine séparée, un cagibi, une salle de bain et wc. Un grenier et une place de parking privative complète ce bien. Contactez votre conseiller BSK Immobilier : LE SANT ARHUIS ROMAIN - Agent commercial (EI) immatriculé au RSAC de Vannes sous le numéro 95364671800015 - Honoraires d'agence à la charge du vendeur Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr Copropriété de 43 lots Surface Carrez 32 m2 Montant annuel moyen de la quote-part du budget prévisionnel 801€ Réf. 214933 - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente appartement 1 pièce à Vannes Bondon - Kerlann  Obtenir l'adresse du bien      4 photos  Exclu     165 000 €                       Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 165000
+			size           : 32
+			room           : 
+			bedroom        : 1
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-appartement-vannes-bondon-kerlann-56/201/appartement-a-vendre-vannes-bondon-kerlann-17435704_1_1701164222_86fc62078bbc6240fa63a19a1c1d3dd0_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Appartement 3 pièces
+		href : https://www.ouestfrance-immo.com/immobilier/vente/appartement/vannes-56-56260/3-pieces-17435659.htm
+		propriétés : 
+			description    : Sur la Rive Droite du port, venez découvrir cet appartement de type 3 exposé plein sud, situé dans une résidence de standing. Il est composé d'une entrée avec placard, d'une pièce de vie avec cuisine EA ouverte sur la terrasse et le jardin , de deux chambres, d'une salle d'eau et d'un WC. Vendu avec une cave, un garage et une place de parking en sous sol. www.georisques.gouv.fr  Réf. GB000181030 - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente appartement 3 pièces à Vannes Centre Ville  Obtenir l'adresse du bien      10 photos     419 500 €                       Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 419500
+			size           : 63
+			room           : 2
+			bedroom        : 1
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-appartement-vannes-centre-ville-56/201/appartement-a-vendre-vannes-centre-ville-17435659_1_224a964297064f5b1db3ea02afa8ff99_rcrop_686-515_.jpeg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Terrain 484 m²
+		href : https://www.ouestfrance-immo.com/immobilier/vente/terrain/vannes-56-56260/17434984.htm
+		propriétés : 
+			description    : Vannes secteur Bernus. Emplacement idéal pour votre projet de construction à Vannes. A proximité des commodités, des commerces et des professionnels de santé. Maisons CBI vous propose ce beau terrain de 484 m² non viabilisé, issu d'une division parcellaire. Ce terrain bénéficie d'un Coefficient d'emprise au Sol de 40%. Terrain au calme avec exposition Sud-Ouest. Non libre de constructeur. Prix : 275000 €.  Sur ce terrain, devenez propriétaire de votre maison neuve personnalisée avec Maisons CBI (constructeur depuis plus de 30 ans) :  • Plan sur-mesure • Chauffage adapté (aérothermie…) • Prestations design (cuisine, carrelage, salles de bains…) • Menuiseries couleurs avec volets roulants électriques • Porte d’entrée design et porte de garage motorisé  Contactez Nicolas LAMY (Maisons CBI - Agence de Muzillac).  Prix hors frais de notaire. Terrain sélectionné et vu pour vous sous réserve de disponibilité et au prix indiqué par notre partenaire foncier. Visuels non contractuels. www.georisques.gouv.fr  Réf. TENL0046884F443F03 - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente de terrain 484 m² à Vannes Gare - Hôpital  Obtenir l'adresse du bien      1 photo     275 000 €                       Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 275000
+			size           : 484
+			room           : 
+			bedroom        : 1
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-terrain-vannes-gare-hopital-56/208/terrain-a-vendre-vannes-gare-hopital-17434984_1_1701143589_2c607797b0cb8f3f812582dc4f71e33a_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Terrain 154 m²
+		href : https://www.ouestfrance-immo.com/immobilier/vente/terrain/vannes-56-56260/17434981.htm
+		propriétés : 
+			description    : Vannes secteur Bernus. Emplacement idéal pour votre projet de construction à Vannes. A proximité des commodités, des commerces et des professionnels de santé. Maisons CBI vous propose ce beau terrain de 154 m² non viabilisé, issu d'une division parcellaire. Ce terrain bénéficie d'un Coefficient d'emprise au Sol de 40%. Terrain au calme avec exposition Sud-Ouest. Non libre de constructeur. Prix : 125000 €.  Sur ce terrain, devenez propriétaire de votre maison neuve personnalisée avec Maisons CBI (constructeur depuis plus de 30 ans) :  • Plan sur-mesure • Chauffage adapté (aérothermie…) • Prestations design (cuisine, carrelage, salles de bains…) • Menuiseries couleurs avec volets roulants électriques • Porte d’entrée design et porte de garage motorisé  Contactez Nicolas LAMY (Maisons CBI - Agence de Muzillac).  Prix hors frais de notaire. Terrain sélectionné et vu pour vous sous réserve de disponibilité et au prix indiqué par notre partenaire foncier. Visuels non contractuels. www.georisques.gouv.fr  Réf. TENL004688707FF8B6 - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente de terrain 154 m² à Vannes Gare - Hôpital  Obtenir l'adresse du bien      1 photo     125 000 €                       Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 125000
+			size           : 154
+			room           : 
+			bedroom        : 1
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-terrain-vannes-gare-hopital-56/208/terrain-a-vendre-vannes-gare-hopital-17434981_1_1701143588_2c607797b0cb8f3f812582dc4f71e33a_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Appartement 3 pièces
+		href : https://www.ouestfrance-immo.com/immobilier/vente/appartement/vannes-56-56260/3-pieces-17434764.htm
+		propriétés : 
+			description    : Vannes  Saisissez l'occasion d'être le propriétaire de ce beau 3 pièces au 2ème étage d'un bel immeuble sécurisé. Ce magnifique T3 de 61m² comprend un spacieux séjour/cuisine donnant sur un balcon de 5 m², deux belles chambres, une salle de bain et un WC. Ce bien possède également un parking.  Liv:1T2025 Pas de frais d’agence, Frais de notaire réduits et PTZ, Qualité BBC et RT2012/RE2020, faibles charges.  Photos de synthèse non contractuelles. Renseignements sur demande.  Dan www.georisques.gouv.fr  Réf. DH1021383 - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente appartement 3 pièces à Vannes  Obtenir l'adresse du bien      6 photos     207 000 €                        Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 207000
+			size           : 61
+			room           : 2
+			bedroom        : 1
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-appartement-vannes-56/201/appartement-a-vendre-vannes-17434764_1_1701130287_0db0b38761367a35540f595d6cd8c070_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Appartement 4 pièces
+		href : https://www.ouestfrance-immo.com/immobilier/vente/appartement/vannes-56-56260/4-pieces-17420762.htm
+		propriétés : 
+			description    : VANNES - SECTEUR RECHERCHÉ - LA MADELEINE - ENTIÈREMENT RÉNOVÉ en 2020, MAGNIFIQUE appartement T4 de 102,16 m2 CARREZ. Il se compose d'une AGRÈABLE ENTRÉE donnant sur une BELLE PIÈCE DE VIE LUMINEUSE avec CUISINE OUVERTE AMÉNAGÉE ET ÉQUIPÉE, UNE CHAMBRE PARENTALE avec salle d'eau et PLACARD, deux chambres avec PLACARD et BALCONS, une salle de bains, un espace BUANDERIE, un wc. Point positifs: SURFACE ET DISTRIBUTION DES PIÈCES, LUMINOSITÉ, RÉNOVATION/DÉCORATION RÉCENTE et de QUALITÉ, PROXIMITÉ LIGNE DE BUS, PETITE COPROPRIÉTÉ, AUCUNS TRAVAUX À PRÉVOIR. Chauffage individuel ÉLECTRIQUE. Une CAVE en s/sol et une PLACE DE STATIONNEMENT complètent ce bien. COUP DE COEUR ASSURÉ. Le bien comprend 2 lots, et il est situé dans une copropriété de 5 lots (il n'y a pas de charges courantes liées à la copropriété et le syndicat des copropriétaires ne fait pas l'objet d'une procédure citée à l'article L. 721-1 du code de la construction et de l'habitation). Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr Prix de vente : 394 000 € Honoraires charge vendeur Contactez votre conseiller SAFTI : Sandrine LE TUTOUR,,  - EI - Agent commercial immatriculé au RSAC de VANNES sous le numéro 849 772 884 Réf. 1129547 - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente appartement 4 pièces à Vannes Vincin  Obtenir l'adresse du bien      9 photos     394 000 €                       Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 394000
+			size           : 103
+			room           : 3
+			bedroom        : 2
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-appartement-vannes-vincin-56/201/appartement-a-vendre-vannes-vincin-17420762_1_1700682822_bf9ebb95630bf0c79132848abc9ad18a_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Maison 8 chambres
+		href : https://www.ouestfrance-immo.com/immobilier/vente/maison/vannes-56-56260/17420430.htm
+		propriétés : 
+			description    : iad France - Servane De Fromont vous propose : Venez découvrir cette élégante demeure bourgeoise située dans le très prisé quartier Albert 1er, à proximité des écoles et des commerces. Cette propriété saura vous charmer avec son parquet, ses plafonds hauts, ses moulures, une cheminée dans chaque chambre, et son magnifique jardin. En arrivant, vous serez immédiatement séduit par la façade de la maison. Le rez-de-chaussée offre une cuisine ouverte sur la salle à manger, un salon et un bureau. De plus, cet étage dispose d'un WC séparé et d'une salle d'eau. Au premier étage, vous trouverez quatre chambres, dont deux avec salle d'eau, une avec salle de bain et un WC séparé. Le deuxième étage comprend quatre autres chambres et une cuisine. Le jardin, paysager et entouré de murs, offre la possibilité d'installer une piscine ! Pour compléter le tout, la propriété détient un sous-sol complet, comprenant une cave, une buanderie et un garage. Des travaux de réaménagement vous permettront de personnaliser cette propriété, qui offre de généreux volumes. Du point de vue technique, la toiture en ardoises naturelles a été révisée il y a deux ans. La propriété est raccordée au tout-à-l'égout, équipée de double vitrage en bois et pvc, et est chauffée au gaz de ville. Cette demeure possède un caractère unique et n'attend que votre visite pour révéler tout son potentiel ! Honoraires d’agence à la charge du vendeur.Information d'affichage énergétique sur ce bien : classe ENERGIE E indice 264 et classe CLIMAT E indice 56.   Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr.  La présente annonce immobilière a été rédigée sous la responsabilité éditoriale de Mme Servane De Fromont EI (ID 73266), mandataire indépendant en immobilier (sans détention de fonds), agent commercial de la SAS I@D France immatriculé au RSAC de VANNES CEDEX sous le numéro 921444634, titulaire de la carte de démarchage immobilier pour le compte de la société I@D France SAS. Retrouvez tous nos biens sur notre site internet. Réf. 1428437 - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente maison 11 pièces à Vannes  Obtenir l'adresse du bien      11 photos     978 500 €                        Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 978500
+			size           : 237
+			room           : 8
+			bedroom        : 2
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-maison-vannes-56/207/maison-a-vendre-vannes-17420430_1_1700673724_59bd6142c68968959069f17b12b76d92_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Appartement 2 pièces
+		href : https://www.ouestfrance-immo.com/immobilier/vente/appartement/vannes-56-56260/2-pieces-17418944.htm
+		propriétés : 
+			description    : C'est entre la gare et la vieille ville de Vannes que se trouve cet appartement entièrement refait à neuf de 32,71m2 loi carrez. Un escalier privé dessert une pièce de vie confortable avec un salon et cuisine aménagée ouverte et équipée. Séparée par une verrière, une agréable chambre ouvre sur une salle d'eau disposant d'un espace buanderie. Isolation, électricité, plomberie, menuiseries, cet appartement propose une prestation totalement neuve.  La mairie offre un abonnement de 30euros/an pour stationner dans les rues avoisinantes.  Ce bien correspond à un mode de vie citadin, vous permettant d'accéder à pied aux commerces et à la Gare.  Le bien comprend 1 lot et est soumis au statut de la copropriété qui comprend 22 lots dont 10 d'habitation. Les charges courantes annuelles moyennes de copropriété sont environ de 500 euros et le syndicat des copropriétaires ne fait pas l'objet d'une procédure (citée à l'article L. 721-1 du code de la construction et de l'habitation).  CLASSE ENERGIE : C / CLASSE CLIMAT : A Montant moyen estimé des dépenses annuelles d'énergie pour un usage standard établi à partir des prix de l'énergie de l'année 2021 : entre 370euros et 540euros/an  Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site géorisques : www.georisques.gouv.fr  Copropriété de 22 lots (Pas de procédure en cours).  Charges annuelles : 500 euros. Roxanne GUYONVARCH (EI) Agent Commercial - Numéro RSAC : 818 154 817 - VANNES. Réf. 1250 - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente appartement 2 pièces à Vannes  Obtenir l'adresse du bien      1 photo  Exclu     179 000 €                        Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 179000
+			size           : 33
+			room           : 1
+			bedroom        : 1
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-appartement-vannes-56/201/appartement-a-vendre-vannes-17418944_1_1700663521_443941c6ddcfff3717cb22c44983e808_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null
+
+Annonce numéro 0
+		titre : Appartement 3 pièces
+		href : https://www.ouestfrance-immo.com/immobilier/vente/appartement/vannes-56-56260/3-pieces-17418727.htm
+		propriétés : 
+			description    : En exclusivité, En plein cœur d'ARRADON ! Investissement locatif ou future résidence, je vous propose de découvrir cet appartement duplex situé au calme d'une impasse à 2 pas du bourg, proche de toutes les commodités à pieds et à 15 minutes de la charmante plage de Kerbilouet. Au 1er étage d'une petite copropriété, il se compose au rdc d'un couloir doté de grands placards de rangement, d'une chambre, ainsi que d'une salle d'eau avec wc. La vie s'organise autour d'une vaste salle de séjour lumineuse et de son coin cuisine équipé, ouvrant sur un balcon avec vue dégagée sur le clocher de l'église. L'étage dispose d'une chambre avec placard et d'une salle de bains. 2 places de stationnement en extérieur complètent ce bien. L'appartement est VENDU LOUE, (bail renouvelé en janvier 2023), loyer 570€ CC. VENDU LOUE Le bien comprend 3 lots, et il est situé dans une copropriété de 22 lots (les charges courantes annuelles moyennes de copropriété sont de 743 € et le syndicat des copropriétaires ne fait pas l'objet d'une procédure citée à l'article L. 721-1 du code de la construction et de l'habitation). Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr Prix de vente honoraires d'agence inclus : 266 500 € Prix de vente hors honoraires d'agence : 255 000 € Honoraires : 4,51 % TTC de la valeur du bien hors honoraires Honoraires charge acquéreur Contactez votre consultant megAgence : Cécilia BARDASI,,  - EI - Agent commercial immatriculé au RSAC de LORIENT sous le numéro 889 022 190 Réf. 153071 - 28/11/2023  Demander l'adresse      Obtenir l'adresse de  Vente appartement 3 pièces à Vannes Gare - Hôpital  Obtenir l'adresse du bien      5 photos  Exclu     266 500 €                       Ajouter un message   Je souhaiterais connaitre l'adresse de ce bien visible sur  Ouestfrance-immo.com.   * champs obligatoires   Envoyez mon message        voir notre politique de données personnelles .
+			price          : 266500
+			size           : 57
+			room           : 2
+			bedroom        : 2
+			imgUrl         : https://www.ouestfrance-immo.com/photo-vente-appartement-vannes-gare-hopital-56/201/appartement-a-vendre-vannes-gare-hopital-17418727_1_1700655852_8086406ea5f2a6f4f3f60b4a72459aa5_rcrop_686-515_.jpg
+			address        : Address numéro 0
+		propriétés : 
+			codeSeloger    : null
+			codeOuestFrance: 56
+			city           : vannes
+			department     : morbihan
+			postcode       : 56000
+
+			type           : Type numéro 1
+		propriétés : 
+			label          : apartment
+
+			dateUpdate     : null
+			dateCreation   : null

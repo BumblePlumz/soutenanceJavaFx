@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="400.0" minWidth="300.0" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.cda.immobilier.controller.RegisterFormController">
+   <children>
+      <HBox prefHeight="400.0" prefWidth="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane prefHeight="400.0" prefWidth="300.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="300.0" layoutY="-3.0">
+                     <image>
+                        <Image url="@../../images/logoScraping.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="31.0" layoutY="185.0" text="Prénom" />
+                  <TextField fx:id="registerFirstname" layoutX="30.0" layoutY="202.0" prefHeight="25.0" prefWidth="100.0" />
+                  <Label layoutX="166.0" layoutY="185.0" text="Nom" />
+                  <TextField fx:id="registerName" layoutX="165.0" layoutY="202.0" prefHeight="25.0" prefWidth="100.0" />
+                  <Label layoutX="74.0" layoutY="241.0" text="Email" />
+                  <TextField fx:id="registerEmail" layoutX="73.0" layoutY="258.0" />
+                  <Label layoutX="74.0" layoutY="296.0" text="Password" />
+                  <PasswordField fx:id="registerPassword" layoutX="73.0" layoutY="313.0" />
+                  <Label layoutX="32.0" layoutY="146.0" text="Formulaire d'inscription">
+                     <font>
+                        <Font name="Script MT Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="116.0" layoutY="362.0" mnemonicParsing="false" onAction="#register" styleClass="button-29" stylesheets="@../../css/style.css" text="Valider" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
