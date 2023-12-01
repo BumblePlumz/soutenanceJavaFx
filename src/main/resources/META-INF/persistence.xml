@@ -13,9 +13,9 @@
     <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
     <properties>
         <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
-        <property name="javax.persistence.jdbc.url" value="jdbc:mysql://home.bumblefamily.fr:3306/soutenance"/>
-        <property name="javax.persistence.jdbc.user" value="bumbleplumz"/>
-        <property name="javax.persistence.jdbc.password" value="ticolaze56"/>
+        <property name="javax.persistence.jdbc.url" value=""/>
+        <property name="javax.persistence.jdbc.user" value=""/>
+        <property name="javax.persistence.jdbc.password" value=""/>
 
         <property name="hibernate.hbm2ddl.auto"   value="update"/>
         <property name="hibernate.show_sql"       value="true"/>
