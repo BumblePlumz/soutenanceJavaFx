@@ -18,7 +18,7 @@ import java.util.Properties;
  * Gestion des emails
  */
 public class EmailTools {
-    private String key = "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";
+    private String key = "";
     private static EmailTools instance = null;
 
     private EmailTools() {
